@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": {
+    "two_distinct_experiments": true,
+    "shared_product_entity_not_merged": true,
+    "different_product_masses_preserved": true,
+    "second_run_conditions_remain_unknown": true,
+    "source_reference_agreement": true,
+    "original_extraction_missing_run2_detected": true,
+    "legal_but_wrong_yield_detected": true,
+    "ord_does_not_validate_fact_truth": true,
+    "query_changes_after_revision": true,
+    "history_keeps_original_and_correction": true,
+    "patch_replay_is_idempotent": true,
+    "alias_query_finds_both_runs": true,
+    "solvent_alias_resolves": true,
+    "partial_second_run_flagged_by_ord": true,
+    "raw_output_is_retained": true
+  },
+  "evidence_check": {
+    "status": "verified",
+    "evidence_count": 13,
+    "procedure_sha256": "c31a97f942df77f1f2d1a68f4f6064fe7f272c646dc47118adcd91b2fa06f3e6"
+  },
+  "api_calls": 0,
+  "note": "验收覆盖有限课程案例，不代表论文全数据指标或完整实验条件已复现。"
+}

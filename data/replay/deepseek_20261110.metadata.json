@@ -1,0 +1,39 @@
+{
+  "mode": "api",
+  "provider": "DeepSeek",
+  "model": "deepseek-flash",
+  "thinking": "disabled",
+  "upstream_commit": "6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a",
+  "input_sha256": "afd606a8d6d9147be7c4fdc01e582200f41f2b41a25e02f431d7c7202a216bc9",
+  "prompt_source_sha256": "842723a30756e201ff48b89349fe636e37f25127d5510fbb6affe28f27b1b5c5",
+  "pricing_checked": "2026-11-10",
+  "price_assumption": "peak: input 2 CNY/M, output 8 CNY/M; ignore cache discount",
+  "reserved_cny": 0.07368,
+  "budget_cny": 1.0,
+  "calls": [
+    {
+      "source_id": "volume102article22",
+      "procedure_number": 1,
+      "response_id": "d3d49bae-3047-4628-b370-9591d39d50cf",
+      "served_model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 7279,
+        "completion_tokens": 113,
+        "total_tokens": 7392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 7279
+      },
+      "prompt_sha256": "e515831dd4136d0d1bdd9c16816dbd133af56abc550558da76af4c4ca186c35b",
+      "finish_reason": "stop",
+      "content": "| Reactants | Reactant amounts | Products | Product amounts | Solvents | Reaction temperature | Reaction time | Yield |\n|-----------|-----------------|----------|-----------------|-----------|----------------------|----------------|-------|\n| 1,1-diphenylethene, 4-nitrobenzonitrile | 3.61 g (20.0 mmol), 6.52 g (44.0 mmol) | Benzophenone | 2.63 g | acetonitrile | 35°C | 36 hours | 72% |"
+    }
+  ],
+  "started_at": "2026-11-10T08:24:03.350864+00:00",
+  "status": "complete",
+  "api_calls": 1,
+  "estimated_cost_cny_peak_no_cache": 0.015462,
+  "row_count": 1
+}

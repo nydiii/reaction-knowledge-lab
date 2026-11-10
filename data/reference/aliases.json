@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-10",
+  "cache_type": "course_curated_reference_not_live_api_response",
+  "note": "Small explicit identity cache for the required case. Unlisted names must remain unresolved; do not choose the closest known name. Sharing an entity ID does not establish experiment identity.",
+  "entities": [
+    {
+      "entity_id": "pubchem:10740",
+      "preferred_name": "1,1-diphenylethene",
+      "aliases": [
+        "1,1-diphenylethene",
+        "1,1-Diphenylethylene"
+      ],
+      "smiles": "C=C(c1ccccc1)c2ccccc2",
+      "pubchem_cid": 10740,
+      "inchikey": "ZMYIIHDQURVDRB-UHFFFAOYSA-N",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10740",
+        "https://www.orgsyn.org/demo.aspx?prep=v102p0114",
+        "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/names_to_SMILES/SMILES.csv"
+      ],
+      "alias_evidence": "Procedure uses ethene spelling; Note 3 uses ethylene spelling. Both names also occur as PubChem synonyms."
+    },
+    {
+      "entity_id": "pubchem:12090",
+      "preferred_name": "4-nitrobenzonitrile",
+      "aliases": [
+        "4-nitrobenzonitrile",
+        "4-Nitrobenzonitrile"
+      ],
+      "smiles": "[O-][N+](=O)c1ccc(cc1)C#N",
+      "pubchem_cid": 12090,
+      "inchikey": "NKJIFDNZPGLLSH-UHFFFAOYSA-N",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12090",
+        "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/names_to_SMILES/SMILES.csv"
+      ],
+      "alias_evidence": "Case variants in original procedure and upstream names cache; no broader class-to-compound inference."
+    },
+    {
+      "entity_id": "pubchem:6342",
+      "preferred_name": "acetonitrile",
+      "aliases": [
+        "acetonitrile",
+        "Acetonitrile",
+        "CH3CN"
+      ],
+      "smiles": "CC#N",
+      "pubchem_cid": 6342,
+      "inchikey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Acetonitrile",
+        "https://www.orgsyn.org/demo.aspx?prep=v102p0114"
+      ],
+      "alias_evidence": "Procedure uses acetonitrile; Figure 1B caption uses CH3CN. Structure verified against PubChem."
+    },
+    {
+      "entity_id": "pubchem:3102",
+      "preferred_name": "benzophenone",
+      "aliases": [
+        "benzophenone",
+        "Benzophenone",
+        "diphenylmethanone"
+      ],
+      "smiles": "O=C(c1ccccc1)c2ccccc2",
+      "pubchem_cid": 3102,
+      "inchikey": "RWCCWEUUXYIKHB-UHFFFAOYSA-N",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/3102",
+        "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/names_to_SMILES/SMILES.csv"
+      ],
+      "alias_evidence": "Benzophenone in the source; diphenylmethanone is the PubChem IUPAC name, not a second experiment."
+    }
+  ]
+}

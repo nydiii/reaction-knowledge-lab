@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "source_id": "volume102article22",
+  "reference_type": "source_checked_course_reference",
+  "reviewed_on": "2026-11-10",
+  "input_json_pointer": "/volume102article22/Procedure/0",
+  "offset_unit": "Python Unicode character index, start inclusive and end exclusive, on the exact decoded Procedure[0] string",
+  "procedure_sha256": "c31a97f942df77f1f2d1a68f4f6064fe7f272c646dc47118adcd91b2fa06f3e6",
+  "records": [
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "source_id": "volume102article22",
+      "raw_record_id": "volume102article22_1_1",
+      "experiment_label": "run-1",
+      "status": "source_checked",
+      "inputs": [
+        {
+          "name": "1,1-diphenylethene",
+          "entity_id": "pubchem:10740",
+          "smiles": "C=C(c1ccccc1)c2ccccc2",
+          "role": "reactant",
+          "amount": {
+            "value": 20.0,
+            "unit": "mmol"
+          },
+          "raw_amount": "3.61 g, 20.0 mmol"
+        },
+        {
+          "name": "4-nitrobenzonitrile",
+          "entity_id": "pubchem:12090",
+          "smiles": "[O-][N+](=O)c1ccc(cc1)C#N",
+          "role": "reactant",
+          "amount": {
+            "value": 44.0,
+            "unit": "mmol"
+          },
+          "raw_amount": "6.52 g, 44.0 mmol"
+        }
+      ],
+      "solvents": [
+        {
+          "name": "acetonitrile",
+          "entity_id": "pubchem:6342",
+          "smiles": "CC#N"
+        }
+      ],
+      "product": {
+        "name": "benzophenone",
+        "entity_id": "pubchem:3102",
+        "smiles": "O=C(c1ccccc1)c2ccccc2",
+        "mass_g": 2.63,
+        "yield_percent": 72.0,
+        "purity_percent": 99.8
+      },
+      "conditions": {
+        "raw_time": "36 h",
+        "time_minutes": 2160.0,
+        "raw_temperature": "approximately 30 ℃; increased to 35 ℃",
+        "temperature_c": {
+          "min": 30.0,
+          "max": 35.0
+        }
+      },
+      "source": {
+        "doi": "10.15227/orgsyn.102.0114",
+        "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0114",
+        "locator": "Procedure; first run and final product-isolation paragraph"
+      },
+      "notes": [
+        "由助手对照公开原文建立的课程参考；不是原作者gold或独立专家审校。",
+        "30–35 ℃表示文中反应过程温度变化范围，不是恒温设定值。",
+        "99.8%是qNMR纯度，72%是产率，两者不混用。"
+      ],
+      "raw": {}
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-2",
+      "source_id": "volume102article22",
+      "raw_record_id": "manual-reference:volume102article22:run-2",
+      "experiment_label": "run-2",
+      "status": "source_checked",
+      "inputs": [],
+      "solvents": [],
+      "product": {
+        "name": "benzophenone",
+        "entity_id": "pubchem:3102",
+        "smiles": "O=C(c1ccccc1)c2ccccc2",
+        "mass_g": 2.62,
+        "yield_percent": 72.0,
+        "purity_percent": 98.6
+      },
+      "conditions": {
+        "raw_time": null,
+        "time_minutes": null,
+        "raw_temperature": null,
+        "temperature_c": null
+      },
+      "source": {
+        "doi": "10.15227/orgsyn.102.0114",
+        "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0114",
+        "locator": "Procedure; final sentence explicitly reporting a second run"
+      },
+      "notes": [
+        "依据原文补录的第二次实验，不是上游CSV已有行；raw_record_id是课程参考标识。",
+        "原文只重述第二次实验的产物质量、产率与qNMR纯度，未逐项重述投料、溶剂、时间或温度。",
+        "通过相同source_id关联同一procedure；未知字段保持空或null，不自动继承第一轮条件。"
+      ],
+      "raw": {}
+    }
+  ],
+  "evidence": [
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "inputs.0.amount.value",
+      "source_id": "volume102article22",
+      "start": 206,
+      "end": 215,
+      "text": "20.0 mmol"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "inputs.1.amount.value",
+      "source_id": "volume102article22",
+      "start": 274,
+      "end": 283,
+      "text": "44.0 mmol"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "solvents.0.name",
+      "source_id": "volume102article22",
+      "start": 430,
+      "end": 442,
+      "text": "acetonitrile"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "conditions.temperature_c.min",
+      "source_id": "volume102article22",
+      "start": 920,
+      "end": 924,
+      "text": "30 ℃"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "conditions.temperature_c.max",
+      "source_id": "volume102article22",
+      "start": 1182,
+      "end": 1186,
+      "text": "35 ℃"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "conditions.time_minutes",
+      "source_id": "volume102article22",
+      "start": 1225,
+      "end": 1229,
+      "text": "36 h"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "product.mass_g",
+      "source_id": "volume102article22",
+      "start": 2552,
+      "end": 2558,
+      "text": "2.63 g"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "product.purity_percent",
+      "source_id": "volume102article22",
+      "start": 2591,
+      "end": 2603,
+      "text": "99.8% purity"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-1",
+      "field": "product.yield_percent",
+      "source_id": "volume102article22",
+      "start": 2580,
+      "end": 2589,
+      "text": "72% yield"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-2",
+      "field": "experiment_label",
+      "source_id": "volume102article22",
+      "start": 2676,
+      "end": 2688,
+      "text": "A second run"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-2",
+      "field": "product.mass_g",
+      "source_id": "volume102article22",
+      "start": 2698,
+      "end": 2704,
+      "text": "2.62 g"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-2",
+      "field": "product.yield_percent",
+      "source_id": "volume102article22",
+      "start": 2726,
+      "end": 2729,
+      "text": "72%"
+    },
+    {
+      "record_id": "orgsyn-102-0114-run-2",
+      "field": "product.purity_percent",
+      "source_id": "volume102article22",
+      "start": 2737,
+      "end": 2742,
+      "text": "98.6%"
+    }
+  ],
+  "review_method": "课程参考由助手逐项对照公开原文建立；不是原作者提供的gold，也不是独立化学专家评审。"
+}

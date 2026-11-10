@@ -1,0 +1,97 @@
+{
+  "paper": {
+    "title": "A virtual platform for automated hybrid organic-enzymatic synthesis planning",
+    "journal": "Nature Communications",
+    "year": 2025,
+    "doi": "10.1038/s41467-025-65898-3"
+  },
+  "code": {
+    "repository": "https://github.com/wangxr0526/ChemEnzyRetroPlanner",
+    "commit": "7dbab354189db9edc7aea9c0aedc2f1b1659f906",
+    "files": [
+      "retro_planner/packages/rxn_filter/rxn_filter/filter_models.py",
+      "retro_planner/packages/rxn_filter/rxn_filter/filter_dataset.py"
+    ],
+    "license": "MIT",
+    "copyright": "Copyright (c) 2025 Xiaorui Wang"
+  },
+  "model": {
+    "official_url": "https://huggingface.co/xiaoruiwang/ChemEnzyRetroPlanner_metadata/resolve/main/rxn_filter_metadata.zip",
+    "used_mirror_url": "https://hf-mirror.com/xiaoruiwang/ChemEnzyRetroPlanner_metadata/resolve/main/rxn_filter_metadata.zip",
+    "archive_sha256": "2dccc5743df622060df4b1a34eb9724046ecb71a326f5fb6e91672b58501f489",
+    "archive_bytes": 31118149,
+    "checkpoint_member": "retro_planner/packages/rxn_filter/rxn_filter/model/filter_model_20250604_232451_state.pt",
+    "checkpoint_sha256": "e57267576898f574adfb9c2dd4b8b37b3b5b09e01c47b5b78dac6129a8e2b3b4",
+    "checkpoint_bytes": 16787816,
+    "included_in_git": false
+  },
+  "changes": [
+    "Retain original two-branch architecture and original state-dictionary keys.",
+    "Retain Morgan radius=2, nbits=2048, useChirality=True; reaction fingerprint is product minus SUM of per-reactant fingerprints.",
+    "Omit training code and unused DRFP/RXNFP imports.",
+    "Add format validation, SHA256 verification, weights_only=True and map_location=cpu.",
+    "Add standalone CLI, explicit threshold and JSON output; no automatic knowledge correction."
+  ],
+  "verification": {
+    "date": "2026-11-10",
+    "timezone": "Asia/Shanghai",
+    "platform": {
+      "system": "Darwin",
+      "release": "25.6.0",
+      "machine": "arm64",
+      "python": "3.12.15"
+    },
+    "packages": {
+      "numpy": "2.2.6",
+      "rdkit": "2025.3.6",
+      "torch": "2.8.0",
+      "certifi": "2026.10.23"
+    },
+    "device": "cpu",
+    "contract_tests": {
+      "command": "python -m unittest discover -s optional/rxn_filter -p \"test_adapter.py\" -v",
+      "passed": 3
+    },
+    "download_script_mirror_and_local_archive": "passed",
+    "official_host_download": "connection timeout in this environment; used explicit mirror with checksum verification",
+    "cases": {
+      "organic_syntheses_cutoff_05": {
+        "reaction_smiles": "C=C(c1ccccc1)c1ccccc1.N#Cc1ccc([N+](=O)[O-])cc1>>O=C(c1ccccc1)c1ccccc1",
+        "plausibility_score": 0.8016688227653503,
+        "cutoff": 0.5,
+        "needs_review": false,
+        "device": "cpu",
+        "checkpoint_sha256": "e57267576898f574adfb9c2dd4b8b37b3b5b09e01c47b5b78dac6129a8e2b3b4",
+        "upstream_commit": "7dbab354189db9edc7aea9c0aedc2f1b1659f906",
+        "interpretation": "Auxiliary structural screening only; no source verification or automatic correction."
+      },
+      "organic_syntheses_cutoff_09": {
+        "reaction_smiles": "C=C(c1ccccc1)c1ccccc1.N#Cc1ccc([N+](=O)[O-])cc1>>O=C(c1ccccc1)c1ccccc1",
+        "plausibility_score": 0.8016688227653503,
+        "cutoff": 0.9,
+        "needs_review": true,
+        "device": "cpu",
+        "checkpoint_sha256": "e57267576898f574adfb9c2dd4b8b37b3b5b09e01c47b5b78dac6129a8e2b3b4",
+        "upstream_commit": "7dbab354189db9edc7aea9c0aedc2f1b1659f906",
+        "interpretation": "Auxiliary structural screening only; no source verification or automatic correction."
+      },
+      "upstream_source_example": {
+        "reaction_smiles": "C=CCN1C[C@H](C)N([C@H](c2cccnc2)c2cccc(O)c2)C[C@H]1C.O=S(=O)(N(c1ccccc1)S(=O)(=O)C(F)(F)F)C(F)(F)F>>C=CCN1C[C@H](C)N([C@H](c2cccnc2)c2cccc(OS(=O)(=O)C(F)(F)F)c2)C[C@H]1C",
+        "plausibility_score": 0.9940396547317505,
+        "cutoff": 0.5,
+        "needs_review": false,
+        "device": "cpu",
+        "checkpoint_sha256": "e57267576898f574adfb9c2dd4b8b37b3b5b09e01c47b5b78dac6129a8e2b3b4",
+        "upstream_commit": "7dbab354189db9edc7aea9c0aedc2f1b1659f906",
+        "interpretation": "Auxiliary structural screening only; no source verification or automatic correction."
+      }
+    },
+    "additional_environment": "Python3.10.22 on macOS arm64 also produced the same two scores.",
+    "unverified": [
+      "Windows and Linux execution",
+      "Full original-paper benchmark metrics",
+      "Retraining",
+      "Reaction conditions and literature fact verification"
+    ]
+  }
+}

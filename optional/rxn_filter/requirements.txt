@@ -1,0 +1,5 @@
+# Install in the optional environment, separately from the required course.
+numpy==2.2.6
+rdkit==2025.3.6
+torch==2.8.0
+certifi==2026.10.23

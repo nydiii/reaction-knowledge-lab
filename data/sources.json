@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-10",
+  "upstream": {
+    "project": "ReactionSeek",
+    "repository": "https://github.com/DeepSynthesis/ReactionSeek",
+    "commit": "6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a",
+    "license": "MIT",
+    "license_url": "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/LICENSE",
+    "license_notice": "Repository software license does not relicense third-party scientific articles."
+  },
+  "files": [
+    {
+      "name": "input.json",
+      "url": "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/reaction_extract/data/input.json",
+      "sha256": "afd606a8d6d9147be7c4fdc01e582200f41f2b41a25e02f431d7c7202a216bc9",
+      "target": "input.json",
+      "bytes": 16865,
+      "purpose": "fixed upstream input; third-party source text, download locally"
+    },
+    {
+      "name": "GLM_evaluate.py",
+      "url": "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/reaction_extract/code/GLM_evaluate.py",
+      "sha256": "842723a30756e201ff48b89349fe636e37f25127d5510fbb6affe28f27b1b5c5",
+      "target": "GLM_evaluate.py",
+      "bytes": 27316,
+      "purpose": "fixed upstream extraction prompt and GLM invocation; do not execute unmodified"
+    }
+  ],
+  "bundled_files": [
+    {
+      "path": "data/replay/upstream_output_table.csv",
+      "upstream_url": "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/reaction_extract/output_table.csv",
+      "sha256": "176b004ba00bef39e14b8cb6d9f620954c051180f5cde0832b0f3768dffbdc97",
+      "content_type": "unmodified upstream generated output",
+      "upstream_model": "glm-4",
+      "run_timestamp": null,
+      "note": "Model attribution comes from the associated upstream script; original response metadata, token usage and run timestamp were not published with this CSV."
+    },
+    {
+      "path": "data/replay/upstream_output_summary.csv",
+      "upstream_url": "https://raw.githubusercontent.com/DeepSynthesis/ReactionSeek/6d42c4a1c5e47e1a5544b67a5b3ce9b00dbf8f6a/examples/OrganicSyntheses/reaction_extract/newer_document_extract/reaction_extract/output_summary.csv",
+      "sha256": "ab9d974ce3e5d74fc24a4b5bacac67df6c3b330e2df9f0d55ebfcffec7d906e9",
+      "content_type": "unmodified upstream generated output",
+      "upstream_model": "glm-4",
+      "run_timestamp": null,
+      "note": "Model attribution comes from the associated upstream script; original response metadata, token usage and run timestamp were not published with this CSV."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "volume102article28",
+      "title": "Sharpless Epoxidation of Divinyl carbinol",
+      "year": 2025,
+      "journal": "Organic Syntheses",
+      "volume": 102,
+      "pages": "1–18",
+      "doi": "10.15227/orgsyn.102.0001",
+      "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0001",
+      "pdf_url": "https://www.orgsyn.org/Content/pdfs/procedures/v102p0001.pdf",
+      "review_scope": "extension_not_fully_reviewed"
+    },
+    {
+      "source_id": "volume102article24",
+      "title": "Copper-Catalyzed Suzuki-Miyaura Coupling of Unactivated Alkyl Halides with Arylborons",
+      "year": 2025,
+      "journal": "Organic Syntheses",
+      "volume": 102,
+      "pages": "86–99",
+      "doi": "10.15227/orgsyn.102.0086",
+      "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0086",
+      "pdf_url": "https://www.orgsyn.org/Content/pdfs/procedures/v102p0086.pdf",
+      "review_scope": "extension_not_fully_reviewed"
+    },
+    {
+      "source_id": "volume102article22",
+      "title": "Photoexcited Nitroarenes for the Anaerobic Cleavage of Alkenes",
+      "year": 2025,
+      "journal": "Organic Syntheses",
+      "volume": 102,
+      "pages": "114–127",
+      "doi": "10.15227/orgsyn.102.0114",
+      "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0114",
+      "pdf_url": "https://www.orgsyn.org/Content/pdfs/procedures/v102p0114.pdf",
+      "review_scope": "required_case"
+    },
+    {
+      "source_id": "volume102article17",
+      "title": "Iodine-Catalyzed Stereospecific anti-Diamination of trans-β-Methylstyrene",
+      "year": 2025,
+      "journal": "Organic Syntheses",
+      "volume": 102,
+      "pages": "203–216",
+      "doi": "10.15227/orgsyn.102.0203",
+      "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0203",
+      "pdf_url": "https://www.orgsyn.org/Content/pdfs/procedures/v102p0203.pdf",
+      "review_scope": "extension_not_fully_reviewed"
+    },
+    {
+      "source_id": "volume102article9",
+      "title": "Synthesis of 6-Methoxy-2-methyl-2-(4-methylpent-3-en-1-yl)chroman-4-one via Kabbe Condensation",
+      "year": 2025,
+      "journal": "Organic Syntheses",
+      "volume": 102,
+      "pages": "335–349",
+      "doi": "10.15227/orgsyn.102.0335",
+      "url": "https://www.orgsyn.org/demo.aspx?prep=v102p0335",
+      "pdf_url": "https://www.orgsyn.org/Content/pdfs/procedures/v102p0335.pdf",
+      "review_scope": "extension_not_fully_reviewed"
+    }
+  ],
+  "course_api_run": {
+    "date": "2026-11-10",
+    "provider": "DeepSeek",
+    "model": "deepseek-flash",
+    "source_id": "volume102article22",
+    "api_calls": 1,
+    "prompt_tokens": 7279,
+    "completion_tokens": 113,
+    "files": [
+      {
+        "path": "data/replay/deepseek_20261110.csv",
+        "sha256": "1f0ec33886698b43497884f50e59188e71cd87ba79d6f08201f0d94417b2864c"
+      },
+      {
+        "path": "data/replay/deepseek_20261110.metadata.json",
+        "sha256": "43db116416a0fa87d1e8dc63ab16a2ffc9081642a6ec7eeec940ff00944297c0"
+      }
+    ],
+    "note": "Real course verification run, not upstream ReactionSeek output; replaying these files makes no API call."
+  }
+}

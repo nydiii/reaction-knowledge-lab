@@ -26,6 +26,9 @@ def resolve_path(value):
 
 
 def main():
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workdir", default="runs/notebook-lab", help="New, empty directory for lesson results.")
     parser.add_argument("--output-dir", default="runs/notebook-executed", help="Directory for executed notebook copies.")

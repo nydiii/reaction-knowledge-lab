@@ -4,6 +4,8 @@
 
 适合具备基础 Python 能力的本科生。必做实验使用普通电脑 CPU；**回放路径不需要 API Key，也不会产生模型费用**。真实调用路径使用学生自行配置的 DeepSeek API。
 
+GitHub 仓库：[nydiii/reaction-knowledge-lab](https://github.com/nydiii/reaction-knowledge-lab)。
+
 ## 从这里开始
 
 - **[完整操作手册](docs/MANUAL.md)**：环境安装、下载资料、逐条命令、预期结果、常见问题。

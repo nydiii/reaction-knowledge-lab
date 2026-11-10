@@ -20,12 +20,14 @@
 
 ## 1. 获取仓库
 
-在本仓库 GitHub 页面选择 **Code → Download ZIP**，解压到自己的课程目录。不要直接在 ZIP 压缩包内运行程序。
+打开 [GitHub 仓库](https://github.com/nydiii/reaction-knowledge-lab)，选择 **Code → Download ZIP**，解压到自己的课程目录。不要直接在 ZIP 压缩包内运行程序。
 
-也可以在 GitHub 的 **Code → HTTPS** 复制本仓库地址，使用 Git 克隆。将下面占位内容替换为页面中实际的地址，不要原样执行：
+仓库当前为私有，需登录已获访问权限的 GitHub 账号。没有访问权限时，可以直接使用教师分发的仓库 ZIP。
+
+已安装 Git 并配置 GitHub 登录的同学也可以克隆：
 
 ```text
-git clone <从本仓库Code按钮复制的HTTPS地址>
+git clone https://github.com/nydiii/reaction-knowledge-lab.git
 ```
 
 打开终端，进入包含 `pyproject.toml`、`data`、`docs` 的仓库根目录。下面假设解压后的目录名是 `reaction-knowledge-lab`；若带有 `-main` 后缀，使用实际目录名。
@@ -90,7 +92,7 @@ python -c "import sys; from importlib.metadata import version; print(sys.executa
 
 应看到仓库 `.venv` 内的解释器、Python 3.12 和 `ord-schema 0.9.6`。核心使用 CPU；无需安装 CUDA。
 
-安装依赖需要网络。安装完成后，默认回放和数据库操作不需要 API，也不会自动访问模型服务。项目当前实际验证的平台为 macOS arm64；Windows/Linux 提供跨平台命令及 CI 配置，不能把配置文件存在说成已在每种电脑上跑过。
+安装依赖需要网络。安装完成后，默认回放和数据库操作不需要 API，也不会自动访问模型服务。已在本机 macOS arm64 和 GitHub Actions 的 Windows、macOS、Ubuntu runner 验证核心流程及 Notebook；具体版本、跳过项与选做边界见[实际验证记录](VERIFICATION.md)。这不代表每一种学生电脑都已实测。
 
 ## 3. 先运行一键回放，再做分步实验
 

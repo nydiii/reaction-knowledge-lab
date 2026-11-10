@@ -10,13 +10,14 @@
 - ORD **0.9.6**，RDKit **2026.9.1**，protobuf **5.29.6**。
 - 另建全新虚拟环境，仅用 `pip` 安装核心锁定依赖和本项目，再运行 `demo`；15 项验收全部通过。核心路径不需要 PyTorch、Jupyter 或 API。
 
-仓库提供 Windows PowerShell 命令和 macOS / Linux 命令。GitHub Actions 已配置三系统检查，但本记录**没有把尚未实际执行的 Windows / Linux CI 算作通过**。推荐先用 Python 3.12；`pyproject.toml` 的兼容范围不等于每个 Python 版本都已测试。
+发布后已在 GitHub Actions 的 **Windows、macOS、Ubuntu** 托管 runner 上完成核心安装、测试、离线 `demo` / `verify` 和三本 Notebook，全部通过。[成功运行记录](https://github.com/nydiii/reaction-knowledge-lab/actions/runs/42810087211)对应代码提交 `c4886c7`；可下载 [CI 摘要](examples/github-ci.json)。这些结果不等于每一种学生电脑都已测试，也不包含 RXN Filter 选做。推荐 Python 3.12；`pyproject.toml` 的兼容范围不等于每个 Python 版本都已测试。
 
 ## 2. 验证结果
 
 | 检查 | 实际结果 | 证明的范围 |
 |---|---|---|
-| 核心自动测试 | **44 passed** | 解析、对齐、保守单位处理、ORD 接口、来源检查、版本修订、幂等与事务回滚 |
+| 本机核心自动测试 | **46 passed** | 解析、对齐、保守单位处理、ORD 接口、来源检查、版本修订、幂等、事务回滚和终端编码 |
+| GitHub Actions 三系统 | 每个系统 **45 passed, 1 skipped**；流程与 Notebook 全通过 | CI 不下载完整原文，因此跳过 1 项原文定位测试；不是将跳过算作通过 |
 | `demo` / `verify` | **15 / 15 通过**，API 调用 0 | 同一案例从真实回放到可查询、可修订资源 |
 | 原文证据检查 | **13 处短证据定位通过** | 固定输入版本、原文片段位置及哈希；不是通用事实证明器 |
 | 分步命令行流程 | 手册主线运行成功 | 初始建库、教学错误、来源复核、修订、查询和导出 |
@@ -27,6 +28,8 @@
 | RXN Filter 选做 | **3 项测试通过**，真实权重 CPU 推理成功 | 原始模型结构与指纹的独立推理适配 |
 
 可查看随仓库保存的 [demo 验收快照](examples/demo-verification.json)。它是发布者的一次运行记录；学生自己的结果应保存在自己的 `runs/` 中。源 Notebook 不带执行输出，执行器会另存含输出的副本。
+
+首次 Windows CI 暴露了默认 `cp1252` 编码不能输出中文的问题。现已将 CLI 和 Notebook 执行器的输出设为 UTF-8，并增加回归测试，覆盖结果打印、错误提示和拒绝覆盖旧目录；修复后第二轮三系统检查全部通过。
 
 ## 3. 必做路径的关键可观察结果
 
@@ -96,6 +99,6 @@ python scripts/run_notebooks.py --workdir runs/check-my-notebooks --output-dir r
 - 化学专家独立审校或大规模人工金标准；参考由助手逐项对照原文建立。
 - 光照、气氛、装置等全部实验条件的结构化。
 - 自动从新原文生成可信修订；课程 `source-review` 只是基于固定参考生成提案，仍要求阅读证据。
-- Windows / Linux 实机验证、外部 GitHub Actions 执行结果。
+- 学生个人电脑的全部系统版本和环境；RXN Filter 选做的 Windows / Linux 运行。
 
 本实验的验收目标是让学生观察并完成一条可复查的数据处理链，而不是获得无需人工审查的化学事实数据库。

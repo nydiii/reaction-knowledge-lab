@@ -37,6 +37,6 @@
 
 ## 实际验证与发布状态
 
-44 项核心测试、15 项 demo 验收、3 本 Notebook 的 25 个代码单元、选做的 3 项测试通过。干净环境及发布包独立解压后的离线回放通过；详见 [验证记录](../../VERIFICATION.md)。
+46 项本机核心测试、15 项 demo 验收、3 本 Notebook 的 25 个代码单元、选做的 3 项测试通过。干净环境及发布包独立解压后的离线回放通过；GitHub Actions 三系统核心检查全部通过（各 45 passed、1 项原文定位跳过），详见 [验证记录](../../VERIFICATION.md)。
 
-用户指定发布目标 `nydiii/reaction-knowledge-lab`，**私有**。本地准备完成；远端创建与推送待 GitHub 登录，不把准备完成写成远端已发布。
+已创建并上传至 [nydiii/reaction-knowledge-lab](https://github.com/nydiii/reaction-knowledge-lab)，仓库可见性已核实为**私有**。跨平台 CI 结果以 [验证记录](../../VERIFICATION.md) 为准。

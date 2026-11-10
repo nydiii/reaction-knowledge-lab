@@ -10,7 +10,7 @@
 
 ## 环境、结构、命令
 
-- Python 3.12，CPU；当前主机实际验证 macOS arm64。Windows/Linux 提供操作说明及 CI 配置，未跑过的系统不标已验证。
+- Python 3.12，CPU；当前主机实际验证 macOS arm64，核心流程已通过 GitHub Actions 的 Windows、macOS、Ubuntu 检查；具体范围见 docs/VERIFICATION.md，未跑过的选做和环境不标已验证。
 - 包：`src/reaction_knowledge_lab/`；资料：`data/`；教程：`docs/`、`notebooks/`；验证：`tests/`。
 - `python -m pip install -e ".[dev]"` 安装；`python -m reaction_knowledge_lab demo --workdir runs/demo` 回放全过程；`python -m pytest` 验收。
 - 分步命令：`fetch`、`extract --mode replay|api`、`align`、`validate`、`build`、`query`、`revise`、`verify`；所有输出写到用户指定目录。

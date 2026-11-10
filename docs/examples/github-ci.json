@@ -1,0 +1,115 @@
+{
+  "verified_date": "2026-11-10",
+  "run_id": 42810087211,
+  "url": "https://github.com/nydiii/reaction-knowledge-lab/actions/runs/42810087211",
+  "tested_commit": "c4886c75a2e2969d32b00316d3f6b2668e2575fd",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "name": "test (ubuntu-latest)",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m pip install -r requirements-dev.lock.txt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install --no-deps -e .",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pytest -q",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m reaction_knowledge_lab demo --workdir runs/ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m reaction_knowledge_lab verify --workdir runs/ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "test (macos-latest)",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m pip install -r requirements-dev.lock.txt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install --no-deps -e .",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pytest -q",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m reaction_knowledge_lab demo --workdir runs/ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m reaction_knowledge_lab verify --workdir runs/ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "test (windows-latest)",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Run python -m pip install -r requirements-dev.lock.txt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install --no-deps -e .",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pytest -q",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m reaction_knowledge_lab demo --workdir runs/ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m reaction_knowledge_lab verify --workdir runs/ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "pytest_summaries": [
+    {
+      "job": "test (ubuntu-latest)",
+      "result": "45 passed, 1 skipped in 3.03s"
+    },
+    {
+      "job": "test (macos-latest)",
+      "result": "45 passed, 1 skipped in 2.45s"
+    },
+    {
+      "job": "test (windows-latest)",
+      "result": "45 passed, 1 skipped in 6.24s"
+    }
+  ],
+  "scope": "Hosted CPU runners, Python 3.12; tests, offline demo/verify and three notebooks. Source-download checks are skipped in CI; API and optional RXN Filter are not run."
+}

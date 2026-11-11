@@ -1,0 +1,401 @@
+{
+  "conclusion": "success",
+  "headSha": "17713ff5822c44f37be08849303cc972d4050954",
+  "jobs": [
+    {
+      "completedAt": "2026-11-11T07:58:39Z",
+      "conclusion": "success",
+      "databaseId": 130398139731,
+      "name": "test (windows-latest)",
+      "startedAt": "2026-11-11T07:56:45Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-11T07:56:47Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-11T07:56:46Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:56:54Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-11-11T07:56:47Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:03Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "startedAt": "2026-11-11T07:56:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:02Z",
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements-dev.lock.txt",
+          "number": 4,
+          "startedAt": "2026-11-11T07:57:03Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:07Z",
+          "conclusion": "success",
+          "name": "Run python -m pip install --no-deps -e .",
+          "number": 5,
+          "startedAt": "2026-11-11T07:58:02Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:16Z",
+          "conclusion": "success",
+          "name": "Run python -m pytest -q",
+          "number": 6,
+          "startedAt": "2026-11-11T07:58:07Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:17Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab demo --workdir runs/ci",
+          "number": 7,
+          "startedAt": "2026-11-11T07:58:16Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:18Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab verify --workdir runs/ci",
+          "number": 8,
+          "startedAt": "2026-11-11T07:58:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:20Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab batch-demo --workdir runs/ci-batch",
+          "number": 9,
+          "startedAt": "2026-11-11T07:58:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:21Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab batch-verify --workdir runs/ci-batch",
+          "number": 10,
+          "startedAt": "2026-11-11T07:58:20Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:22Z",
+          "conclusion": "success",
+          "name": "Run python scripts/verify_student_setup.py --output runs/ci-student-check",
+          "number": 11,
+          "startedAt": "2026-11-11T07:58:21Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:31Z",
+          "conclusion": "success",
+          "name": "Run python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed",
+          "number": 12,
+          "startedAt": "2026-11-11T07:58:22Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:35Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 23,
+          "startedAt": "2026-11-11T07:58:31Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:37Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 24,
+          "startedAt": "2026-11-11T07:58:35Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:58:37Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 25,
+          "startedAt": "2026-11-11T07:58:37Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/nydiii/reaction-knowledge-lab/actions/runs/42983184183/job/130398139731"
+    },
+    {
+      "completedAt": "2026-11-11T07:57:38Z",
+      "conclusion": "success",
+      "databaseId": 130398140040,
+      "name": "test (ubuntu-latest)",
+      "startedAt": "2026-11-11T07:56:45Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-11T07:56:47Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-11T07:56:46Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:56:48Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-11-11T07:56:47Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:56:50Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "startedAt": "2026-11-11T07:56:48Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:17Z",
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements-dev.lock.txt",
+          "number": 4,
+          "startedAt": "2026-11-11T07:56:50Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:20Z",
+          "conclusion": "success",
+          "name": "Run python -m pip install --no-deps -e .",
+          "number": 5,
+          "startedAt": "2026-11-11T07:57:17Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:24Z",
+          "conclusion": "success",
+          "name": "Run python -m pytest -q",
+          "number": 6,
+          "startedAt": "2026-11-11T07:57:20Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:25Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab demo --workdir runs/ci",
+          "number": 7,
+          "startedAt": "2026-11-11T07:57:24Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:26Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab verify --workdir runs/ci",
+          "number": 8,
+          "startedAt": "2026-11-11T07:57:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:27Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab batch-demo --workdir runs/ci-batch",
+          "number": 9,
+          "startedAt": "2026-11-11T07:57:26Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:27Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab batch-verify --workdir runs/ci-batch",
+          "number": 10,
+          "startedAt": "2026-11-11T07:57:27Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:28Z",
+          "conclusion": "success",
+          "name": "Run python scripts/verify_student_setup.py --output runs/ci-student-check",
+          "number": 11,
+          "startedAt": "2026-11-11T07:57:27Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:34Z",
+          "conclusion": "success",
+          "name": "Run python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed",
+          "number": 12,
+          "startedAt": "2026-11-11T07:57:28Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:37Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 23,
+          "startedAt": "2026-11-11T07:57:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:37Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 24,
+          "startedAt": "2026-11-11T07:57:37Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:37Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 25,
+          "startedAt": "2026-11-11T07:57:37Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/nydiii/reaction-knowledge-lab/actions/runs/42983184183/job/130398140040"
+    },
+    {
+      "completedAt": "2026-11-11T07:57:26Z",
+      "conclusion": "success",
+      "databaseId": 130398140600,
+      "name": "test (macos-latest)",
+      "startedAt": "2026-11-11T07:56:46Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-11T07:56:47Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-11T07:56:46Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:56:48Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v4",
+          "number": 2,
+          "startedAt": "2026-11-11T07:56:47Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:56:51Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-python@v5",
+          "number": 3,
+          "startedAt": "2026-11-11T07:56:48Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:08Z",
+          "conclusion": "success",
+          "name": "Run python -m pip install -r requirements-dev.lock.txt",
+          "number": 4,
+          "startedAt": "2026-11-11T07:56:51Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:09Z",
+          "conclusion": "success",
+          "name": "Run python -m pip install --no-deps -e .",
+          "number": 5,
+          "startedAt": "2026-11-11T07:57:08Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:13Z",
+          "conclusion": "success",
+          "name": "Run python -m pytest -q",
+          "number": 6,
+          "startedAt": "2026-11-11T07:57:09Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:13Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab demo --workdir runs/ci",
+          "number": 7,
+          "startedAt": "2026-11-11T07:57:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:14Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab verify --workdir runs/ci",
+          "number": 8,
+          "startedAt": "2026-11-11T07:57:13Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:15Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab batch-demo --workdir runs/ci-batch",
+          "number": 9,
+          "startedAt": "2026-11-11T07:57:14Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:15Z",
+          "conclusion": "success",
+          "name": "Run python -m reaction_knowledge_lab batch-verify --workdir runs/ci-batch",
+          "number": 10,
+          "startedAt": "2026-11-11T07:57:15Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:16Z",
+          "conclusion": "success",
+          "name": "Run python scripts/verify_student_setup.py --output runs/ci-student-check",
+          "number": 11,
+          "startedAt": "2026-11-11T07:57:15Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:21Z",
+          "conclusion": "success",
+          "name": "Run python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed",
+          "number": 12,
+          "startedAt": "2026-11-11T07:57:16Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:23Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-python@v5",
+          "number": 23,
+          "startedAt": "2026-11-11T07:57:21Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:23Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v4",
+          "number": 24,
+          "startedAt": "2026-11-11T07:57:23Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-11T07:57:24Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 25,
+          "startedAt": "2026-11-11T07:57:23Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/nydiii/reaction-knowledge-lab/actions/runs/42983184183/job/130398140600"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/nydiii/reaction-knowledge-lab/actions/runs/42983184183"
+}

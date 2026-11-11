@@ -1,0 +1,4318 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "record_id": "nc2019-t1-1",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-1",
+      "experiment_label": "t1-1",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-iodotoluene",
+          "entity_id": "inchikey:UDHAWRUAECEBHC-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(I)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-methylbiphenyl",
+        "entity_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "12 h",
+        "time_minutes": 720
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 1; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 1; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-2",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-2",
+      "experiment_label": "t1-2",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "3-iodotoluene",
+          "entity_id": "inchikey:VLCPISYURGTGLP-UHFFFAOYSA-N",
+          "smiles": "Cc1cccc(I)c1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "3-methylbiphenyl",
+        "entity_id": "inchikey:NPDIDUXTRAITDE-UHFFFAOYSA-N",
+        "smiles": "Cc1cccc(-c2ccccc2)c1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 94,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "12 h",
+        "time_minutes": 720
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 2; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 2; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-3",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-3",
+      "experiment_label": "t1-3",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "2-iodotoluene",
+          "entity_id": "inchikey:RINOYHWVBUKAQE-UHFFFAOYSA-N",
+          "smiles": "Cc1ccccc1I",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "2-methylbiphenyl",
+        "entity_id": "inchikey:ALLIZEAXNXSFGD-UHFFFAOYSA-N",
+        "smiles": "Cc1ccccc1-c1ccccc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 92,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "12 h",
+        "time_minutes": 720
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 3; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 3; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-4",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-4",
+      "experiment_label": "t1-4",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "1-iodo-4-fluorobenzene",
+          "entity_id": "inchikey:KGNQDBQYEBMPFZ-UHFFFAOYSA-N",
+          "smiles": "Fc1ccc(I)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-fluorobiphenyl",
+        "entity_id": "inchikey:RUYZJEIKQYLEGZ-UHFFFAOYSA-N",
+        "smiles": "Fc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 93,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "15 h",
+        "time_minutes": 900
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 4; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 4; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-5",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-5",
+      "experiment_label": "t1-5",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "1-iodo-4-(trifluoromethyl)benzene",
+          "entity_id": "inchikey:SKGRFPGOGCHDPC-UHFFFAOYSA-N",
+          "smiles": "FC(F)(F)c1ccc(I)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-(trifluoromethyl)biphenyl",
+        "entity_id": "inchikey:OUMKBAHMPRLISR-UHFFFAOYSA-N",
+        "smiles": "FC(F)(F)c1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "12 h",
+        "time_minutes": 720
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 5; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 5; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-6",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-6",
+      "experiment_label": "t1-6",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-iodophenol",
+          "entity_id": "inchikey:VSMDINRNYYEDRN-UHFFFAOYSA-N",
+          "smiles": "Oc1ccc(I)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-phenylphenol",
+        "entity_id": "inchikey:YXVFYQXJAXKLAK-UHFFFAOYSA-N",
+        "smiles": "Oc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 89,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "15 h",
+        "time_minutes": 900
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 6; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 6; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-7",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-7",
+      "experiment_label": "t1-7",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-iodoanisole",
+          "entity_id": "inchikey:SYSZENVIJHPFNL-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(I)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-methoxybiphenyl",
+        "entity_id": "inchikey:RHDYQUZYHZWTCI-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 91,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "16 h",
+        "time_minutes": 960
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 7; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 7; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-8",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-8",
+      "experiment_label": "t1-8",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "2-iodonaphthalene",
+          "entity_id": "inchikey:FRNLBIWVMVNNAZ-UHFFFAOYSA-N",
+          "smiles": "Ic1ccc2ccccc2c1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "2-phenylnaphthalene",
+        "entity_id": "inchikey:TURIHPLQSRVWHU-UHFFFAOYSA-N",
+        "smiles": "c1ccc(-c2ccc3ccccc3c2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 91,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "30 °C",
+        "temperature_c": {
+          "min": 30,
+          "max": 30
+        },
+        "raw_time": "18 h",
+        "time_minutes": 1080
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 8; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 8; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-9",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-9",
+      "experiment_label": "t1-9",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-methylbiphenyl",
+        "entity_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "8 h",
+        "time_minutes": 480
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 9; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 9; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-10",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-10",
+      "experiment_label": "t1-10",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "2-bromotoluene",
+          "entity_id": "inchikey:QSSXJPIWXQTSIX-UHFFFAOYSA-N",
+          "smiles": "Cc1ccccc1Br",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "2-methylbiphenyl",
+        "entity_id": "inchikey:ALLIZEAXNXSFGD-UHFFFAOYSA-N",
+        "smiles": "Cc1ccccc1-c1ccccc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 91,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "8 h",
+        "time_minutes": 480
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 10; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 10; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-11",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-11",
+      "experiment_label": "t1-11",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "1-bromo-4-fluorobenzene",
+          "entity_id": "inchikey:AITNMTXHTIIIBB-UHFFFAOYSA-N",
+          "smiles": "Fc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-fluorobiphenyl",
+        "entity_id": "inchikey:RUYZJEIKQYLEGZ-UHFFFAOYSA-N",
+        "smiles": "Fc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 93,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "10 h",
+        "time_minutes": 600
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 11; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 11; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-12",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-12",
+      "experiment_label": "t1-12",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoanisole",
+          "entity_id": "inchikey:QJPJQTDYNZXKQF-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-methoxybiphenyl",
+        "entity_id": "inchikey:RHDYQUZYHZWTCI-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 90,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "14 h",
+        "time_minutes": 840
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 12; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 12; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-13",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-13",
+      "experiment_label": "t1-13",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromophenol",
+          "entity_id": "inchikey:GZFGOTFRPZRKDS-UHFFFAOYSA-N",
+          "smiles": "Oc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-phenylphenol",
+        "entity_id": "inchikey:YXVFYQXJAXKLAK-UHFFFAOYSA-N",
+        "smiles": "Oc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 87,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "12 h",
+        "time_minutes": 720
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 13; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 13; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-14",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-14",
+      "experiment_label": "t1-14",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromobenzaldehyde",
+          "entity_id": "inchikey:ZRYZBQLXDKPBDU-UHFFFAOYSA-N",
+          "smiles": "O=Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-phenylbenzaldehyde",
+        "entity_id": "inchikey:ISDBWOPVZKNQDW-UHFFFAOYSA-N",
+        "smiles": "O=Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 94,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "9 h",
+        "time_minutes": 540
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 14; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 14; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-t1-15",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:t1-15",
+      "experiment_label": "t1-15",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromobenzonitrile",
+          "entity_id": "inchikey:HQSCPPCMBMFJJN-UHFFFAOYSA-N",
+          "smiles": "N#Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-phenylbenzonitrile",
+        "entity_id": "inchikey:BPMBNLJJRKCCRT-UHFFFAOYSA-N",
+        "smiles": "N#Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 89,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "14 h",
+        "time_minutes": 840
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "Main Table 1, entry 15; footnote"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "Main Table 1, entry 15; footnote",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2019-s6-1",
+      "source_id": "nc2019",
+      "raw_record_id": "reference:nc2019:s6-1",
+      "experiment_label": "s6-1",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "chlorobenzene",
+          "entity_id": "inchikey:MVPPADPHJFYWMZ-UHFFFAOYSA-N",
+          "smiles": "Clc1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.8,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.8 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "biphenyl",
+        "entity_id": "inchikey:ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+        "smiles": "c1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 7,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "60 °C",
+        "temperature_c": {
+          "min": 60,
+          "max": 60
+        },
+        "raw_time": "24 h",
+        "time_minutes": 1440
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Y3Pd2",
+        "sample_id": "nc2019:Y3Pd2",
+        "loading": "40 mol% Pd relative to organohalide"
+      },
+      "source": {
+        "doi": "10.1038/s41467-019-13679-0",
+        "url": "https://doi.org/10.1038/s41467-019-13679-0",
+        "locator": "SI PDF page 48, Supplementary Table 6 entry 1; product confirmed from scheme"
+      },
+      "notes": [
+        "Selected table states 5 mL solvent without naming it; solvent identity retained as unknown."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2019",
+          "doi": "10.1038/s41467-019-13679-0",
+          "locator": "SI PDF page 48, Supplementary Table 6 entry 1; product confirmed from scheme",
+          "files": [
+            "nc2019-table1.png",
+            "nc2019-si.pdf",
+            "nc2019.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-a",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-a",
+      "experiment_label": "f6-a",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methylbiphenyl",
+        "entity_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-b",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-b",
+      "experiment_label": "f6-b",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoanisole",
+          "entity_id": "inchikey:QJPJQTDYNZXKQF-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methoxybiphenyl",
+        "entity_id": "inchikey:RHDYQUZYHZWTCI-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 98,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-c",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-c",
+      "experiment_label": "f6-c",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromobenzaldehyde",
+          "entity_id": "inchikey:ZRYZBQLXDKPBDU-UHFFFAOYSA-N",
+          "smiles": "O=Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-phenylbenzaldehyde",
+        "entity_id": "inchikey:ISDBWOPVZKNQDW-UHFFFAOYSA-N",
+        "smiles": "O=Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 99,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-d",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-d",
+      "experiment_label": "f6-d",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromobenzonitrile",
+          "entity_id": "inchikey:HQSCPPCMBMFJJN-UHFFFAOYSA-N",
+          "smiles": "N#Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-phenylbenzonitrile",
+        "entity_id": "inchikey:BPMBNLJJRKCCRT-UHFFFAOYSA-N",
+        "smiles": "N#Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 96,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-e",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-e",
+      "experiment_label": "f6-e",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromophenol",
+          "entity_id": "inchikey:GZFGOTFRPZRKDS-UHFFFAOYSA-N",
+          "smiles": "Oc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-phenylphenol",
+        "entity_id": "inchikey:YXVFYQXJAXKLAK-UHFFFAOYSA-N",
+        "smiles": "Oc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-f",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-f",
+      "experiment_label": "f6-f",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "1-bromo-4-fluorobenzene",
+          "entity_id": "inchikey:AITNMTXHTIIIBB-UHFFFAOYSA-N",
+          "smiles": "Fc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-fluorobiphenyl",
+        "entity_id": "inchikey:RUYZJEIKQYLEGZ-UHFFFAOYSA-N",
+        "smiles": "Fc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 96,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-g",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-g",
+      "experiment_label": "f6-g",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "bromobenzene",
+          "entity_id": "inchikey:QARVLSVVCXYDNA-UHFFFAOYSA-N",
+          "smiles": "Brc1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methylphenylboronic acid",
+          "entity_id": "inchikey:BIWQNIMLAISTBV-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methylbiphenyl",
+        "entity_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 99,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-h",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-h",
+      "experiment_label": "f6-h",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methylphenylboronic acid",
+          "entity_id": "inchikey:BIWQNIMLAISTBV-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4,4'-dimethylbiphenyl",
+        "entity_id": "inchikey:RZTDESRVPFKCBH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccc(C)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 97,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-i",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-i",
+      "experiment_label": "f6-i",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoanisole",
+          "entity_id": "inchikey:QJPJQTDYNZXKQF-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methylphenylboronic acid",
+          "entity_id": "inchikey:BIWQNIMLAISTBV-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methoxy-4'-methylbiphenyl",
+        "entity_id": "inchikey:ASKBXZKXIBPNRA-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccc(C)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 98,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-j",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-j",
+      "experiment_label": "f6-j",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "bromobenzene",
+          "entity_id": "inchikey:QARVLSVVCXYDNA-UHFFFAOYSA-N",
+          "smiles": "Brc1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methoxyphenylboronic acid",
+          "entity_id": "inchikey:VOAAEKKFGLPLLU-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methoxybiphenyl",
+        "entity_id": "inchikey:RHDYQUZYHZWTCI-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 93,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-k",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-k",
+      "experiment_label": "f6-k",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methoxyphenylboronic acid",
+          "entity_id": "inchikey:VOAAEKKFGLPLLU-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methoxy-4'-methylbiphenyl",
+        "entity_id": "inchikey:ASKBXZKXIBPNRA-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccc(C)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-l",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-l",
+      "experiment_label": "f6-l",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoanisole",
+          "entity_id": "inchikey:QJPJQTDYNZXKQF-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methoxyphenylboronic acid",
+          "entity_id": "inchikey:VOAAEKKFGLPLLU-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4,4'-dimethoxybiphenyl",
+        "entity_id": "inchikey:UIMPAOAAAYDUKQ-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccc(OC)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 98,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2022-f6-m",
+      "source_id": "nc2022",
+      "raw_record_id": "reference:nc2022:f6-m",
+      "experiment_label": "f6-m",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "bromobenzene",
+          "entity_id": "inchikey:QARVLSVVCXYDNA-UHFFFAOYSA-N",
+          "smiles": "Brc1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-fluorophenylboronic acid",
+          "entity_id": "inchikey:LBUNNMJLXWQQBY-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccc(F)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.75,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.75 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 4,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-fluorobiphenyl",
+        "entity_id": "inchikey:RUYZJEIKQYLEGZ-UHFFFAOYSA-N",
+        "smiles": "Fc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 93,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "40 °C",
+        "temperature_c": {
+          "min": 40,
+          "max": 40
+        },
+        "raw_time": "2 h",
+        "time_minutes": 120
+      },
+      "measurement": {
+        "yield_type": "GC",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1/FeOx-1",
+        "sample_id": "nc2022:Pd1/FeOx-1",
+        "loading": "10 mg catalyst"
+      },
+      "source": {
+        "doi": "10.1038/s41467-022-33442-2",
+        "url": "https://doi.org/10.1038/s41467-022-33442-2",
+        "locator": "Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2022",
+          "doi": "10.1038/s41467-022-33442-2",
+          "locator": "Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test",
+          "files": [
+            "nc2022-fig6.png",
+            "nc2022.xml"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4a-Cl",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4a-Cl",
+      "experiment_label": "4a-Cl",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "chlorobenzene",
+          "entity_id": "inchikey:MVPPADPHJFYWMZ-UHFFFAOYSA-N",
+          "smiles": "Clc1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.6,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.6 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "biphenyl",
+        "entity_id": "inchikey:ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+        "smiles": "c1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 99,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "80 °C",
+        "temperature_c": {
+          "min": 80,
+          "max": 80
+        },
+        "raw_time": "10 h",
+        "time_minutes": 600
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": "5 mg catalyst; 0.35 mol% Pd"
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4c-Cl",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4c-Cl",
+      "experiment_label": "4c-Cl",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-chloroacetophenone",
+          "entity_id": "inchikey:BUZYGTVTZYSBCU-UHFFFAOYSA-N",
+          "smiles": "CC(=O)c1ccc(Cl)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.6,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.6 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-acetylbiphenyl",
+        "entity_id": "inchikey:QCZZSANNLWPGEA-UHFFFAOYSA-N",
+        "smiles": "CC(=O)c1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 95,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "100 °C",
+        "temperature_c": {
+          "min": 100,
+          "max": 100
+        },
+        "raw_time": "20 h",
+        "time_minutes": 1200
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": "5 mg catalyst; 0.35 mol% Pd"
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4q-Br",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4q-Br",
+      "experiment_label": "4q-Br",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.6,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.6 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methylbiphenyl",
+        "entity_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 99,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "80 °C",
+        "temperature_c": {
+          "min": 80,
+          "max": 80
+        },
+        "raw_time": "10 h",
+        "time_minutes": 600
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": "5 mg catalyst; 0.35 mol% Pd"
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4r-Br",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4r-Br",
+      "experiment_label": "4r-Br",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methylphenylboronic acid",
+          "entity_id": "inchikey:BIWQNIMLAISTBV-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.6,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.6 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4,4'-dimethylbiphenyl",
+        "entity_id": "inchikey:RZTDESRVPFKCBH-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccc(C)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 99,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "80 °C",
+        "temperature_c": {
+          "min": 80,
+          "max": 80
+        },
+        "raw_time": "10 h",
+        "time_minutes": 600
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": "5 mg catalyst; 0.35 mol% Pd"
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4s-Br",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4s-Br",
+      "experiment_label": "4s-Br",
+      "status": "needs_review",
+      "record_kind": "source_conflict",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "2-bromoanisole",
+          "entity_id": "inchikey:HTDQSWDEWGSAMN-UHFFFAOYSA-N",
+          "smiles": "COc1ccccc1Br",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.6,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.6 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "2-methoxybiphenyl",
+        "entity_id": "inchikey:NLWCWEGVNJVLAX-UHFFFAOYSA-N",
+        "smiles": "COc1ccccc1-c1ccccc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": null,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "80 °C",
+        "temperature_c": {
+          "min": 80,
+          "max": 80
+        },
+        "raw_time": "10 h",
+        "time_minutes": 600
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": [
+          {
+            "value": 89,
+            "locator": "Main Fig.3 4s-Br"
+          },
+          {
+            "value": 80,
+            "locator": "SI PDF page 50 4s-Br"
+          }
+        ]
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": "5 mg catalyst; 0.35 mol% Pd"
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [
+        "Main figure and SI disagree. No authoritative single yield assigned; do not average or automatically select a source."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4v-Br",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4v-Br",
+      "experiment_label": "4v-Br",
+      "status": "needs_review",
+      "record_kind": "source_conflict",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromotoluene",
+          "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.5,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.5 mmol"
+        },
+        {
+          "name": "4-methoxyphenylboronic acid",
+          "entity_id": "inchikey:VOAAEKKFGLPLLU-UHFFFAOYSA-N",
+          "smiles": "COc1ccc(B(O)O)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.6,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.6 mmol"
+        },
+        {
+          "name": "potassium carbonate",
+          "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "resolution_status": "reference_cache",
+          "role": "reagent",
+          "amount": {
+            "value": 1.5,
+            "unit": "mmol"
+          },
+          "raw_amount": null
+        }
+      ],
+      "solvents": [
+        {
+          "name": "ethanol",
+          "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+          "smiles": "CCO",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        },
+        {
+          "name": "water",
+          "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "smiles": "O",
+          "resolution_status": "reference_cache",
+          "role": "solvent",
+          "amount": {
+            "value": 2,
+            "unit": "mL"
+          },
+          "raw_amount": null
+        }
+      ],
+      "product": {
+        "name": "4-methoxy-4'-methylbiphenyl",
+        "entity_id": "inchikey:ASKBXZKXIBPNRA-UHFFFAOYSA-N",
+        "smiles": "COc1ccc(-c2ccc(C)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": null,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": "80 °C",
+        "temperature_c": {
+          "min": 80,
+          "max": 80
+        },
+        "raw_time": "10 h",
+        "time_minutes": 600
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": [
+          {
+            "value": 98,
+            "locator": "Main Fig.3 4v-Br"
+          },
+          {
+            "value": 99,
+            "locator": "SI PDF page 50 4v-Br"
+          }
+        ]
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": "5 mg catalyst; 0.35 mol% Pd"
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [
+        "Main figure and SI disagree. No authoritative single yield assigned; do not average or automatically select a source."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "nc2025-4c-Br",
+      "source_id": "nc2025",
+      "raw_record_id": "reference:nc2025:4c-Br",
+      "experiment_label": "4c-Br",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoacetophenone",
+          "entity_id": "inchikey:WYECURVXVYPVAT-UHFFFAOYSA-N",
+          "smiles": "CC(=O)c1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": null,
+          "raw_amount": null
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": null,
+          "raw_amount": null
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-acetylbiphenyl",
+        "entity_id": "inchikey:QCZZSANNLWPGEA-UHFFFAOYSA-N",
+        "smiles": "CC(=O)c1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 98,
+        "mass_g": null,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": null,
+        "temperature_c": null,
+        "raw_time": null,
+        "time_minutes": null
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Pd1 ASAC",
+        "sample_id": "nc2025:Pd1 ASAC",
+        "loading": null
+      },
+      "source": {
+        "doi": "10.1038/s41467-025-58579-8",
+        "url": "https://doi.org/10.1038/s41467-025-58579-8",
+        "locator": "Main Fig.3 4c-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      },
+      "notes": [
+        "SI page 46 explicitly reports X=Br, 98%; the Cl-specific conditions in main Fig.3 cannot be copied to this record."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "nc2025",
+          "doi": "10.1038/s41467-025-58579-8",
+          "locator": "Main Fig.3 4c-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+          "files": [
+            "nc2025-fig3.png",
+            "nc2025-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "jacs2024-p7",
+      "source_id": "jacs2024",
+      "raw_record_id": "reference:jacs2024:p7",
+      "experiment_label": "p7",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoacetophenone",
+          "entity_id": "inchikey:WYECURVXVYPVAT-UHFFFAOYSA-N",
+          "smiles": "CC(=O)c1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.2,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.2 mmol per described run"
+        },
+        {
+          "name": "4,4,5,5-tetramethyl-2-(p-tolyl)-1,3,2-dioxaborolane",
+          "entity_id": "inchikey:GKSSEDDAXXEPCP-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.22,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.22 mmol per described run"
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-acetyl-4'-methylbiphenyl",
+        "entity_id": "inchikey:GNIQQKORSMFYPE-UHFFFAOYSA-N",
+        "smiles": "CC(=O)c1ccc(-c2ccc(C)cc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 97,
+        "mass_g": 0.041,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": null,
+        "temperature_c": null,
+        "raw_time": null,
+        "time_minutes": null
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Ni / ProPhos (precursor unresolved)",
+        "sample_id": "jacs2024:Ni-ProPhos-unbound",
+        "loading": null
+      },
+      "source": {
+        "doi": "10.1021/jacs.4c00370",
+        "url": "https://doi.org/10.1021/jacs.4c00370",
+        "locator": "SI PDF page 121, product 7; general alternatives page 119"
+      },
+      "notes": [
+        "Conditions left unbound: page 119 has alternative procedures; teacher should check the corresponding scope figure before assigning a complete condition set."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "jacs2024",
+          "doi": "10.1021/jacs.4c00370",
+          "locator": "SI PDF page 121, product 7; general alternatives page 119",
+          "files": [
+            "jacs2024-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "jacs2024-p8",
+      "source_id": "jacs2024",
+      "raw_record_id": "reference:jacs2024:p8",
+      "experiment_label": "p8",
+      "status": "assistant_source_reviewed",
+      "record_kind": "pooled_result",
+      "replicates": 5,
+      "inputs": [
+        {
+          "name": "4-bromoacetophenone",
+          "entity_id": "inchikey:WYECURVXVYPVAT-UHFFFAOYSA-N",
+          "smiles": "CC(=O)c1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.2,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.2 mmol per described run"
+        },
+        {
+          "name": "phenylboronic acid",
+          "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "smiles": "OB(O)c1ccccc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.3,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.3 mmol per described run"
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "4-acetylbiphenyl",
+        "entity_id": "inchikey:QCZZSANNLWPGEA-UHFFFAOYSA-N",
+        "smiles": "CC(=O)c1ccc(-c2ccccc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 93,
+        "mass_g": 0.18,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": null,
+        "temperature_c": null,
+        "raw_time": null,
+        "time_minutes": null
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Ni / ProPhos (precursor unresolved)",
+        "sample_id": "jacs2024:Ni-ProPhos-unbound",
+        "loading": "0.1 mol% Ni"
+      },
+      "source": {
+        "doi": "10.1021/jacs.4c00370",
+        "url": "https://doi.org/10.1021/jacs.4c00370",
+        "locator": "SI PDF page 121, product 8; general alternatives page 119"
+      },
+      "notes": [
+        "Conditions left unbound: page 119 has alternative procedures; teacher should check the corresponding scope figure before assigning a complete condition set.",
+        "180 mg and 93% refer to combined material from five runs; per-run yield and per-run mass unknown. Reported input amounts are per run."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "jacs2024",
+          "doi": "10.1021/jacs.4c00370",
+          "locator": "SI PDF page 121, product 8; general alternatives page 119",
+          "files": [
+            "jacs2024-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "jacs2024-p30",
+      "source_id": "jacs2024",
+      "raw_record_id": "reference:jacs2024:p30",
+      "experiment_label": "p30",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "6-chloroquinoline",
+          "entity_id": "inchikey:GKJSZXGYFJBYRQ-UHFFFAOYSA-N",
+          "smiles": "Clc1ccc2ncccc2c1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.2,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.2 mmol per described run"
+        },
+        {
+          "name": "4,4,5,5-tetramethyl-2-(p-tolyl)-1,3,2-dioxaborolane",
+          "entity_id": "inchikey:GKSSEDDAXXEPCP-UHFFFAOYSA-N",
+          "smiles": "Cc1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.24,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.24 mmol per described run"
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "6-(4-methylphenyl)quinoline",
+        "entity_id": "inchikey:WPDDXDZAKHIGRB-UHFFFAOYSA-N",
+        "smiles": "Cc1ccc(-c2ccc3ncccc3c2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 93,
+        "mass_g": 0.041,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": null,
+        "temperature_c": null,
+        "raw_time": null,
+        "time_minutes": null
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Ni / ProPhos (precursor unresolved)",
+        "sample_id": "jacs2024:Ni-ProPhos-unbound",
+        "loading": null
+      },
+      "source": {
+        "doi": "10.1021/jacs.4c00370",
+        "url": "https://doi.org/10.1021/jacs.4c00370",
+        "locator": "SI PDF page 122, product 30; general alternatives page 119"
+      },
+      "notes": [
+        "Conditions left unbound: page 119 has alternative procedures; teacher should check the corresponding scope figure before assigning a complete condition set."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "jacs2024",
+          "doi": "10.1021/jacs.4c00370",
+          "locator": "SI PDF page 122, product 30; general alternatives page 119",
+          "files": [
+            "jacs2024-si.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "record_id": "jacs2024-p31",
+      "source_id": "jacs2024",
+      "raw_record_id": "reference:jacs2024:p31",
+      "experiment_label": "p31",
+      "status": "assistant_source_reviewed",
+      "record_kind": "reported_result",
+      "replicates": null,
+      "inputs": [
+        {
+          "name": "4-bromoacetophenone",
+          "entity_id": "inchikey:WYECURVXVYPVAT-UHFFFAOYSA-N",
+          "smiles": "CC(=O)c1ccc(Br)cc1",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.2,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.2 mmol per described run"
+        },
+        {
+          "name": "3-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridine",
+          "entity_id": "inchikey:XEMDFESAXKSEGI-UHFFFAOYSA-N",
+          "smiles": "CC1(C)OB(c2cccnc2)OC1(C)C",
+          "resolution_status": "reference_cache",
+          "role": "reactant",
+          "amount": {
+            "value": 0.24,
+            "unit": "mmol"
+          },
+          "raw_amount": "0.24 mmol per described run"
+        }
+      ],
+      "solvents": [],
+      "product": {
+        "name": "1-[4-(3-pyridinyl)phenyl]ethanone",
+        "entity_id": "inchikey:YDAFIGBEEBFUKV-UHFFFAOYSA-N",
+        "smiles": "CC(=O)c1ccc(-c2cccnc2)cc1",
+        "resolution_status": "reference_cache",
+        "role": "product",
+        "amount": null,
+        "raw_amount": null,
+        "yield_percent": 94,
+        "mass_g": 0.037,
+        "purity_percent": null
+      },
+      "conditions": {
+        "raw_temperature": null,
+        "temperature_c": null,
+        "raw_time": null,
+        "time_minutes": null
+      },
+      "measurement": {
+        "yield_type": "isolated",
+        "yield_claims": []
+      },
+      "catalyst": {
+        "name": "Ni / ProPhos (precursor unresolved)",
+        "sample_id": "jacs2024:Ni-ProPhos-unbound",
+        "loading": null
+      },
+      "source": {
+        "doi": "10.1021/jacs.4c00370",
+        "url": "https://doi.org/10.1021/jacs.4c00370",
+        "locator": "SI PDF page 122, product 31; general alternatives page 119"
+      },
+      "notes": [
+        "Conditions left unbound: page 119 has alternative procedures; teacher should check the corresponding scope figure before assigning a complete condition set."
+      ],
+      "raw": {},
+      "evidence": [
+        {
+          "source_id": "jacs2024",
+          "doi": "10.1021/jacs.4c00370",
+          "locator": "SI PDF page 122, product 31; general alternatives page 119",
+          "files": [
+            "jacs2024-si.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "assistant reviewed against named original figures/pages; independent teacher review pending",
+  "scope": "40 selected reported results from 4 papers; not exhaustive extraction; pooled results are not individual experiments"
+}

@@ -7,7 +7,7 @@ name = "reaction-knowledge-lab"
 version = "0.1.0"
 description = "A CPU teaching lab for traceable organic reaction knowledge"
 requires-python = ">=3.11,<3.14"
-dependencies = ["ord-schema==0.9.6"]
+dependencies = ["ord-schema==0.9.6", "PyMuPDF==1.28.2"]
 
 [project.optional-dependencies]
 dev = ["pytest==8.4.2", "nbformat==5.10.4", "nbclient==0.10.2", "ipykernel==6.30.1", "jupyterlab>=4,<5"]

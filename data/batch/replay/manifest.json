@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-11",
+  "origin": "Actual course DeepSeek API calls; unedited response content",
+  "files": {
+    "jacs2024.json": "7cc5290c1bf18e26b519eed24716431f95fdd0d5fa5a8ce9f1ce21b457468ad1",
+    "nc2019.json": "a79ff3d26efb5aa22fd3ce1d7ee8ac6c41f87d80e3af2208ae097ce028844bae",
+    "nc2022.json": "8eace0adfe7b4d75e93160a294299bb47dc0b6780227a307634a3abf181e8a3a",
+    "nc2025.json": "aa62f3f405b5d5e1cad77690b85feb161cee3f07af2c84748ba28c91eb74a322"
+  },
+  "api_calls": 4,
+  "prompt_tokens": 12772,
+  "completion_tokens": 7949,
+  "estimated_cost_cny_peak_no_cache": 0.08913599999999999
+}

@@ -356,3 +356,5 @@ webencodings==0.6.1
     #   tinycss2
 websocket-client==1.9.2
     # via jupyter-server
+pymupdf==1.28.2
+    # via reaction-knowledge-lab (PDF text extraction for batch)

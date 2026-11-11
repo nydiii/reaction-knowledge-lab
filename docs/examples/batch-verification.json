@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "checks": {
+    "40_records": true,
+    "4_sources": true,
+    "reference_fields_match": true,
+    "entity_structure_consistency": true,
+    "cross_paper_transformation": true,
+    "same_product_different_reactants": true,
+    "pooled_result_not_split": true,
+    "real_source_conflicts_retained": true,
+    "teaching_revision_in_history": true,
+    "aliases_equivalent": true,
+    "reimport_idempotent": true,
+    "ord_current_export_checked": true,
+    "query_regression": true
+  },
+  "report": {
+    "record_count": 40,
+    "source_count": 4,
+    "by_source": {
+      "jacs2024": 4,
+      "nc2019": 16,
+      "nc2022": 13,
+      "nc2025": 7
+    },
+    "cross_source_transformations": [
+      {
+        "reactant_ids": [
+          "inchikey:AITNMTXHTIIIBB-UHFFFAOYSA-N",
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:RUYZJEIKQYLEGZ-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2022"
+        ],
+        "record_ids": [
+          "nc2019-t1-11",
+          "nc2022-f6-f"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:BIWQNIMLAISTBV-UHFFFAOYSA-N",
+          "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:RZTDESRVPFKCBH-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2022",
+          "nc2025"
+        ],
+        "record_ids": [
+          "nc2022-f6-h",
+          "nc2025-4r-Br"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:GZFGOTFRPZRKDS-UHFFFAOYSA-N",
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:YXVFYQXJAXKLAK-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2022"
+        ],
+        "record_ids": [
+          "nc2019-t1-13",
+          "nc2022-f6-e"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:HQSCPPCMBMFJJN-UHFFFAOYSA-N",
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:BPMBNLJJRKCCRT-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2022"
+        ],
+        "record_ids": [
+          "nc2019-t1-15",
+          "nc2022-f6-d"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "inchikey:MVPPADPHJFYWMZ-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2025"
+        ],
+        "record_ids": [
+          "nc2019-s6-1",
+          "nc2025-4a-Cl"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "inchikey:QJPJQTDYNZXKQF-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:RHDYQUZYHZWTCI-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2022"
+        ],
+        "record_ids": [
+          "nc2019-t1-12",
+          "nc2022-f6-b"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "inchikey:WYECURVXVYPVAT-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:QCZZSANNLWPGEA-UHFFFAOYSA-N",
+        "source_ids": [
+          "jacs2024",
+          "nc2025"
+        ],
+        "record_ids": [
+          "jacs2024-p8",
+          "nc2025-4c-Br"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2022",
+          "nc2025"
+        ],
+        "record_ids": [
+          "nc2019-t1-9",
+          "nc2022-f6-a",
+          "nc2025-4q-Br"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+          "inchikey:ZRYZBQLXDKPBDU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:ISDBWOPVZKNQDW-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2019",
+          "nc2022"
+        ],
+        "record_ids": [
+          "nc2019-t1-14",
+          "nc2022-f6-c"
+        ]
+      },
+      {
+        "reactant_ids": [
+          "inchikey:VOAAEKKFGLPLLU-UHFFFAOYSA-N",
+          "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N"
+        ],
+        "product_id": "inchikey:ASKBXZKXIBPNRA-UHFFFAOYSA-N",
+        "source_ids": [
+          "nc2022",
+          "nc2025"
+        ],
+        "record_ids": [
+          "nc2022-f6-k",
+          "nc2025-4v-Br"
+        ]
+      }
+    ],
+    "cross_source_entity_count": 24,
+    "pooled_result_ids": [
+      "jacs2024-p8"
+    ],
+    "source_conflict_ids": [
+      "nc2025-4s-Br",
+      "nc2025-4v-Br"
+    ],
+    "unresolved_components": [],
+    "note": "Counts are reported-result records, not a count of independent wet-lab runs."
+  },
+  "scientific_review": "Software passed does not resolve the two source conflicts or replace teacher review."
+}

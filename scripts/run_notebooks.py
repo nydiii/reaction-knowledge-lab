@@ -1,4 +1,4 @@
-"""Execute the three classroom notebooks in order, using this Python environment.
+"""Execute the four classroom notebooks in order, using this Python environment.
 
 No API calls are made. A temporary kernelspec avoids changing global Jupyter
 configuration or accidentally selecting another environment's python3 kernel.
@@ -17,7 +17,7 @@ from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTEBOOKS = ("01_extraction.ipynb", "02_alignment.ipynb", "03_validation_update.ipynb")
+NOTEBOOKS = ("01_extraction.ipynb", "02_alignment.ipynb", "03_validation_update.ipynb", "04_cross_paper_batch.ipynb")
 
 
 def resolve_path(value):

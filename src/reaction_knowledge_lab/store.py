@@ -166,6 +166,44 @@ def get_records(db_path: Path) -> list[dict]:
         )]
 
 
+def ingest_records(records: list[dict], db_path: Path, entities: list[dict]) -> dict:
+    """Atomically add a literature batch; repeated input never undoes reviews."""
+    ids = [r['record_id'] for r in records]
+    if len(set(ids)) != len(ids):
+        raise ValueError('Duplicate record_id in import')
+    fingerprint = hashlib.sha256(_json({
+        'records': sorted(records, key=lambda r: r['record_id']),
+        'entities': sorted(entities, key=lambda e: e['entity_id']),
+    }).encode()).hexdigest()
+    added = []
+    with closing(_connect(db_path)) as connection:
+        with connection:
+            connection.execute('BEGIN IMMEDIATE')
+            connection.execute('CREATE TABLE IF NOT EXISTS imports (sha256 TEXT PRIMARY KEY, record_ids TEXT NOT NULL)')
+            if connection.execute('SELECT 1 FROM imports WHERE sha256=?', (fingerprint,)).fetchone():
+                return {'status':'already_ingested','added':0,'import_sha256':fingerprint}
+            for entity in entities:
+                old = connection.execute('SELECT payload FROM entities WHERE entity_id=?', (entity['entity_id'],)).fetchone()
+                if old and old[0] != _json(entity):
+                    raise ValueError('Entity conflict: '+entity['entity_id'])
+                if not old:
+                    connection.execute('INSERT INTO entities VALUES (?,?)', (entity['entity_id'],_json(entity)))
+            for record in records:
+                _check_record(record)
+                old = connection.execute('SELECT payload FROM records WHERE record_id=?',(record['record_id'],)).fetchone()
+                if old:
+                    if old[0] != _json(record):
+                        raise ValueError('Record conflict; use an evidence-bearing revision: '+record['record_id'])
+                    continue
+                connection.execute('INSERT INTO records VALUES (?,1,?)',(record['record_id'],_json(record)))
+                _refresh_links(connection,record)
+                _history(connection,record,1,'Incremental import; not a source-correctness assertion.',
+                         [{'source_id':record['source_id'],**record['source']}],None,_now())
+                added.append(record['record_id'])
+            connection.execute('INSERT INTO imports VALUES (?,?)',(fingerprint,_json(ids)))
+    return {'status':'ingested','added':len(added),'record_ids':added,'import_sha256':fingerprint}
+
+
 def query_records(
     db_path: Path, min_yield: float | None = None, name: str | None = None
 ) -> list[dict]:

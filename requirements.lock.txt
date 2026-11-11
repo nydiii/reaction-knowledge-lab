@@ -35,3 +35,5 @@ tzdata==2026.6
     # via
     #   pandas
     #   python-dateutil
+pymupdf==1.28.2
+    # via reaction-knowledge-lab (PDF text extraction for batch)

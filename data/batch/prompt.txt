@@ -1,0 +1,23 @@
+Extract reported Suzuki-Miyaura reaction results from the supplied original scientific pages and figures. This is a course adaptation of ReactionSeek's extraction task, with image inputs and a JSON output schema; it is not the original prompt or a reproduction of the paper's benchmark.
+
+Return only a JSON object {"records": [...]} with these fields per record:
+label: an allowed local label, exactly as requested;
+reactants: array of full chemical names (not the base, catalyst or ligand);
+reactant_amounts: array of original amount strings, in the same order, null for unknown;
+product: full chemical name;
+product_mass: original isolated mass string or null;
+yield_percent: number or null;
+yield_type: "GC", "isolated", or "unknown";
+temperature: original string or null;
+time: original string or null;
+catalyst: reported catalyst name or null;
+catalyst_loading: original string or null;
+base: name or null;
+base_amount: original amount string or null;
+solvents: array of solvent names, excluding work-up or spectroscopy solvents;
+solvent_amounts: array of original volume strings in the same order, null for unknown;
+record_kind: "reported_result", "pooled_result", or "source_conflict";
+replicates: number only when explicitly given, otherwise null;
+notes: short description of ambiguity, pooled measurements or contradictory values, not a quotation.
+
+Do not invent omitted facts. Read the figure's structure and footnote together. Distinguish the aryl halide from the boronic acid and from its pinacol ester. Names such as 7 or 4a are document-local, not chemical identities. A pooled yield from five runs is ONE pooled-result record, never five identical results. A condition used elsewhere in the paper must not be copied unless the selected experiment explicitly refers to it. Where two locations disagree about the same outcome, set yield_percent=null, record_kind="source_conflict", and explain both values and locations in notes. Do not take a GC response factor as a yield. Do not extract unrelated ligand syntheses or spectra as reactions. Avoid quoting prose. Do not output SMILES: identity resolution is a later, separately checked step. Include only the allowed labels, once each; omit a label if there is insufficient evidence and explain the omission in an optional top-level notes field.

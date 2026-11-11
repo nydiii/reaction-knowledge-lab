@@ -21,4 +21,7 @@ jobs:
       - run: python -m pytest -q
       - run: python -m reaction_knowledge_lab demo --workdir runs/ci
       - run: python -m reaction_knowledge_lab verify --workdir runs/ci
+      - run: python -m reaction_knowledge_lab batch-demo --workdir runs/ci-batch
+      - run: python -m reaction_knowledge_lab batch-verify --workdir runs/ci-batch
+      - run: python scripts/verify_student_setup.py --output runs/ci-student-check
       - run: python scripts/run_notebooks.py --workdir runs/ci-notebooks --output-dir runs/ci-notebooks-executed

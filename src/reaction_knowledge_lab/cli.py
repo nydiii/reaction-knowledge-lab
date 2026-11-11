@@ -10,6 +10,11 @@ from .files import load_records, read_json, save_records, write_json
 from .store import apply_patch, build_database, get_history, get_records, query_records
 from .validation import check_evidence
 from .workflow import demo, reference_patch, teaching_error_patch, validate_and_export, verify
+from .batch import (align_batch, batch_demo, batch_entities, batch_report,
+                    batch_validate, batch_verify, review_patch)
+from .batch_extraction import extract_batch
+from .batch_sources import check_batch_evidence, fetch_batch
+from .store import ingest_records
 
 
 def parser():
@@ -58,6 +63,37 @@ def parser():
     for name, help_text in (("demo", "无需API的一键课堂回放"), ("verify", "验收已有demo输出")):
         command = sub.add_parser(name, help=help_text)
         command.add_argument("--workdir", type=Path, default=Path("runs/demo"))
+    batch_fetch = sub.add_parser('batch-fetch', help='下载并校验批量文献、SI及图表')
+    batch_fetch.add_argument('--destination', type=Path, default=Path('data/downloads/batch'))
+    evidence=sub.add_parser('batch-check-evidence', help='核对原文件、选页和真实回放的输入哈希')
+    evidence.add_argument('--downloads',type=Path,default=Path('data/downloads/batch'))
+    batch_extract = sub.add_parser('batch-extract', help='批量真实响应回放或显式真实调用')
+    batch_extract.add_argument('--mode', choices=['replay','api'], default='replay')
+    batch_extract.add_argument('--source-id', default='all')
+    batch_extract.add_argument('--output', type=Path, required=True)
+    batch_extract.add_argument('--downloads', type=Path, default=Path('data/downloads/batch'))
+    batch_extract.add_argument('--credentials', type=Path)
+    batch_extract.add_argument('--max-calls', type=int, default=1)
+    batch_extract.add_argument('--budget-cny', type=float, default=1.0)
+    batch_align = sub.add_parser('batch-align', help='跨文献保守名称关联和单位整理')
+    batch_align.add_argument('--input', type=Path, required=True)
+    batch_align.add_argument('--output', type=Path, required=True)
+    for name in ('batch-build','batch-ingest'):
+        p=sub.add_parser(name, help='创建批量知识库' if name=='batch-build' else '事务化增量导入，不覆盖修订')
+        p.add_argument('--input', type=Path, required=True)
+        p.add_argument('--db', type=Path, required=True)
+        p.add_argument('--exclude-source')
+        p.add_argument('--only-source')
+    for name in ('batch-query','batch-validate','batch-review'):
+        p=sub.add_parser(name)
+        p.add_argument('--db', type=Path, required=True)
+        if name=='batch-validate':
+            p.add_argument('--output-dir', type=Path, required=True)
+            p.add_argument('--source-id',nargs='+',help='仅比较这些论文的参考；单篇API试跑时指定')
+        else:p.add_argument('--output', type=Path, required=True)
+    for name in ('batch-demo','batch-verify'):
+        p=sub.add_parser(name)
+        p.add_argument('--workdir', type=Path, default=Path('runs/batch'))
     return root
 
 
@@ -67,7 +103,37 @@ def main(argv=None):
             stream.reconfigure(encoding="utf-8")
     args = parser().parse_args(argv)
     try:
-        if args.command == "fetch":
+        if args.command == 'batch-fetch':
+            result=fetch_batch(args.destination)
+        elif args.command == 'batch-check-evidence':
+            result=check_batch_evidence(args.downloads)
+        elif args.command == 'batch-extract':
+            result=extract_batch(args.output,mode=args.mode,source_id=args.source_id,
+                credentials=args.credentials,downloads=args.downloads,budget_cny=args.budget_cny,max_calls=args.max_calls)
+        elif args.command == 'batch-align':
+            result=align_batch(args.input,args.output)
+        elif args.command in ('batch-build','batch-ingest'):
+            records=[r for r in load_records(args.input)
+                     if r['source_id']!=args.exclude_source and (not args.only_source or r['source_id']==args.only_source)]
+            if not records:raise ValueError('所选来源没有记录。')
+            result=build_database(records,args.db,batch_entities()) if args.command=='batch-build' else ingest_records(records,args.db,batch_entities())
+        elif args.command=='batch-query':
+            result=batch_report(args.db);write_json(args.output,result)
+        elif args.command=='batch-validate':
+            report=batch_validate(get_records(args.db),args.output_dir,args.source_id)
+            result={'reference_differences':len(report['source_comparison']['issues']),
+                    'source_conflicts':report['source_comparison']['unresolved_source_conflicts'],
+                    'ord_dataset_errors':len(report['ord']['dataset_errors']),
+                    'report':str(args.output_dir/'validation.json')}
+        elif args.command=='batch-review':
+            patch=review_patch(args.db,{r['source_id'] for r in get_records(args.db)})
+            if patch:write_json(args.output,patch)
+            result={'status':'patch_ready' if patch else 'no_changes','output':str(args.output) if patch else None}
+        elif args.command=='batch-demo':
+            result=batch_demo(args.workdir)
+        elif args.command=='batch-verify':
+            result=batch_verify(args.workdir)
+        elif args.command == "fetch":
             result = fetch_sources(args.destination)
         elif args.command == "extract":
             if args.mode == "replay":

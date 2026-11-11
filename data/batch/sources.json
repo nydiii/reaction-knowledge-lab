@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-11",
+  "sources": [
+    {
+      "source_id": "nc2019",
+      "doi": "10.1038/s41467-019-13679-0",
+      "title": "Palladium-bearing intermetallic electride as an efficient and stable catalyst for Suzuki cross-coupling reactions",
+      "year": 2019,
+      "journal": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-019-13679-0",
+      "license": "CC BY 4.0"
+    },
+    {
+      "source_id": "nc2022",
+      "doi": "10.1038/s41467-022-33442-2",
+      "title": "Building up libraries and production line for single atom catalysts with precursor-atomization strategy",
+      "year": 2022,
+      "journal": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-022-33442-2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "source_id": "nc2025",
+      "doi": "10.1038/s41467-025-58579-8",
+      "title": "Defying the oxidative-addition prerequisite in cross-coupling through artful single-atom catalysts",
+      "year": 2025,
+      "journal": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-025-58579-8",
+      "license": "CC BY-NC-ND 4.0; only fact records distributed"
+    },
+    {
+      "source_id": "jacs2024",
+      "doi": "10.1021/jacs.4c00370",
+      "title": "ProPhos: A Ligand for Promoting Nickel-Catalyzed Suzuki-Miyaura Coupling Inspired by Mechanistic Insights into Transmetalation",
+      "year": 2024,
+      "journal": "Journal of the American Chemical Society",
+      "url": "https://doi.org/10.1021/jacs.4c00370",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "files": [
+    {
+      "name": "nc2019.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6906439/fullTextXML",
+      "sha256": "8b696c77bd385fb8bc20f66657c3630fe464be48adc1515eec2e6db433e97cce",
+      "bytes": 119447
+    },
+    {
+      "name": "nc2022.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9522824/fullTextXML",
+      "sha256": "e85062be526969c5b61577708e8e632c95e445a55d3695d2c318c7c006c42390",
+      "bytes": 100473
+    },
+    {
+      "name": "nc2025.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11971317/fullTextXML",
+      "sha256": "cc1bc7e6f1a420ddf04399ac255ca4735124deb750438deb81218b5121c5dd31",
+      "bytes": 113192
+    },
+    {
+      "name": "jacs2024.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10921396/fullTextXML",
+      "sha256": "fcfdf722fc5ae6fc89d19970de4d4140092ccb74a69c65d2cab999747da53443",
+      "bytes": 86208
+    },
+    {
+      "name": "nc2019-si.pdf",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-13679-0/MediaObjects/41467_2019_13679_MOESM1_ESM.pdf",
+      "sha256": "15a74e7e222d26897c80ed7bb6b7ab908b742acd3096f6a9f02d5b9b1e8a5095",
+      "bytes": 4185565
+    },
+    {
+      "name": "nc2022-si.pdf",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-33442-2/MediaObjects/41467_2022_33442_MOESM1_ESM.pdf",
+      "sha256": "78a42d4317d8f4c41d414b5b90bce0569e72d371f30e5b8a9a09f873ab1ea955",
+      "bytes": 6615491
+    },
+    {
+      "name": "nc2025-si.pdf",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-025-58579-8/MediaObjects/41467_2025_58579_MOESM1_ESM.pdf",
+      "sha256": "c2e31fd5d1da84b0b2d6d5c79cd0ae4993f793370e6e5875eae23871f8274a95",
+      "bytes": 17014264
+    },
+    {
+      "name": "nc2019-table1.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-019-13679-0/MediaObjects/41467_2019_13679_Figa_HTML.png",
+      "sha256": "d81d5e11a1ab351decd5c4b156a270d58e1eecaf7b31a1b52b9465f14693be86",
+      "bytes": 106896
+    },
+    {
+      "name": "nc2022-fig6.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-33442-2/MediaObjects/41467_2022_33442_Fig6_HTML.png",
+      "sha256": "43d7122e98e51ac64783b93ffb7e37da99366da27a9a0fbabab0a0f1ceadebae",
+      "bytes": 84034
+    },
+    {
+      "name": "nc2025-fig3.png",
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-58579-8/MediaObjects/41467_2025_58579_Fig3_HTML.png",
+      "sha256": "c6da35619d2026cea263757fc8d09f7e6e74fe3892724cc8dfe919cdf74c5627",
+      "bytes": 221661
+    },
+    {
+      "name": "jacs2024-si.pdf",
+      "url": "https://ndownloader.figshare.com/files/44651241",
+      "sha256": "fe73ece4059f511ff8a6ae4e33f0708206344c042d73c9f8c5707a0c56e46db2",
+      "bytes": 7524796
+    }
+  ],
+  "jobs": [
+    {
+      "source_id": "nc2019",
+      "labels": [
+        "t1-1",
+        "t1-2",
+        "t1-3",
+        "t1-4",
+        "t1-5",
+        "t1-6",
+        "t1-7",
+        "t1-8",
+        "t1-9",
+        "t1-10",
+        "t1-11",
+        "t1-12",
+        "t1-13",
+        "t1-14",
+        "t1-15",
+        "s6-1"
+      ],
+      "scope": "Extract all 15 numbered Table 1 results (labels t1-1 to t1-15) and the chlorobenzene result on SI PDF page 48 (s6-1). Do not include general procedure as another experiment.",
+      "fragments": [
+        {
+          "file": "nc2019-table1.png"
+        },
+        {
+          "file": "nc2019-si.pdf",
+          "pages": [
+            48
+          ]
+        },
+        {
+          "file": "nc2019.xml",
+          "xpath": [
+            ".//p[@id='Par21']"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "nc2022",
+      "labels": [
+        "f6-a",
+        "f6-b",
+        "f6-c",
+        "f6-d",
+        "f6-e",
+        "f6-f",
+        "f6-g",
+        "f6-h",
+        "f6-i",
+        "f6-j",
+        "f6-k",
+        "f6-l",
+        "f6-m"
+      ],
+      "scope": "Extract Fig.6 a-m, one result per letter. The structures below each boronic acid are the aryl bromides. Use the Figure 6 caption for conditions. Do not confuse the different directions used to make the same biaryl.",
+      "fragments": [
+        {
+          "file": "nc2022-fig6.png"
+        },
+        {
+          "file": "nc2022.xml",
+          "xpath": [
+            ".//fig[@id='Fig6']",
+            ".//p[@id='Par26']"
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "nc2025",
+      "labels": [
+        "4a-Cl",
+        "4c-Cl",
+        "4c-Br",
+        "4q-Br",
+        "4r-Br",
+        "4s-Br",
+        "4v-Br"
+      ],
+      "scope": "Extract ONLY the allowed product/halide combinations. Main Fig.3 distinguishes X=Cl versus Br. Use SI Fig.22 for the corresponding footnote conditions. SI also explicitly reports 4c from Br; do not copy the Cl conditions to that entry. Compare main-figure yields with SI characterization descriptions and flag discrepancies. Do not infer individual repetitions.",
+      "fragments": [
+        {
+          "file": "nc2025-fig3.png"
+        },
+        {
+          "file": "nc2025-si.pdf",
+          "pages": [
+            26,
+            46,
+            49,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "jacs2024",
+      "labels": [
+        "p7",
+        "p8",
+        "p30",
+        "p31"
+      ],
+      "scope": "Extract only the specific reported preparations of products 7,8,30,31 on SI pages 121-122. Product 8 is reported as combined material from repeated reactions. Do not turn general procedure alternatives into new results; leave conditions unknown if binding to one alternative is not explicit.",
+      "fragments": [
+        {
+          "file": "jacs2024-si.pdf",
+          "pages": [
+            119,
+            121,
+            122
+          ]
+        }
+      ]
+    }
+  ],
+  "holdout_source": "nc2025",
+  "reference_status": "assistant_source_reviewed; not independent expert gold",
+  "pending_candidates": [
+    {
+      "doi": "10.15227/orgsyn.103.0154",
+      "url": "https://www.orgsyn.org/demo.aspx?prep=v103p0154",
+      "reason": "Official text read via indexed browser source; direct HTML/PDF download returned 403/challenge. Not included in batch replay. Teacher may supply original PDF."
+    },
+    {
+      "doi": "10.1039/C6CC07413H",
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2016/cc/c6cc07413h",
+      "reason": "Shared transformation confirmed in indexed official text; direct full text/SI download blocked. Not included in batch replay."
+    }
+  ]
+}

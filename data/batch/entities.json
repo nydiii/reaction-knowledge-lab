@@ -1,0 +1,965 @@
+{
+  "entities": [
+    {
+      "entity_id": "inchikey:HXITXNWTGFUOAU-UHFFFAOYSA-N",
+      "preferred_name": "phenylboronic acid",
+      "smiles": "OB(O)c1ccccc1",
+      "aliases": [
+        "phenylboronic acid",
+        "benzeneboronic acid",
+        "PhB(OH)2"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370",
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 121, product 8; general alternatives page 119",
+        "nc2019: Main Table 1, entry 10; footnote",
+        "nc2019: Main Table 1, entry 11; footnote",
+        "nc2019: Main Table 1, entry 12; footnote",
+        "nc2019: Main Table 1, entry 13; footnote",
+        "nc2019: Main Table 1, entry 14; footnote",
+        "nc2019: Main Table 1, entry 15; footnote",
+        "nc2019: Main Table 1, entry 1; footnote",
+        "nc2019: Main Table 1, entry 2; footnote",
+        "nc2019: Main Table 1, entry 3; footnote",
+        "nc2019: Main Table 1, entry 4; footnote",
+        "nc2019: Main Table 1, entry 5; footnote",
+        "nc2019: Main Table 1, entry 6; footnote",
+        "nc2019: Main Table 1, entry 7; footnote",
+        "nc2019: Main Table 1, entry 8; footnote",
+        "nc2019: Main Table 1, entry 9; footnote",
+        "nc2019: SI PDF page 48, Supplementary Table 6 entry 1; product confirmed from scheme",
+        "nc2022: Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4c-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:BIWQNIMLAISTBV-UHFFFAOYSA-N",
+      "preferred_name": "4-methylphenylboronic acid",
+      "smiles": "Cc1ccc(B(O)O)cc1",
+      "aliases": [
+        "4-methylphenylboronic acid",
+        "p-tolylboronic acid",
+        "4-tolylboronic acid"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:VOAAEKKFGLPLLU-UHFFFAOYSA-N",
+      "preferred_name": "4-methoxyphenylboronic acid",
+      "smiles": "COc1ccc(B(O)O)cc1",
+      "aliases": [
+        "4-methoxyphenylboronic acid",
+        "p-methoxyphenylboronic acid"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:LBUNNMJLXWQQBY-UHFFFAOYSA-N",
+      "preferred_name": "4-fluorophenylboronic acid",
+      "smiles": "OB(O)c1ccc(F)cc1",
+      "aliases": [
+        "4-fluorophenylboronic acid"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:GKSSEDDAXXEPCP-UHFFFAOYSA-N",
+      "preferred_name": "4,4,5,5-tetramethyl-2-(p-tolyl)-1,3,2-dioxaborolane",
+      "smiles": "Cc1ccc(B2OC(C)(C)C(C)(C)O2)cc1",
+      "aliases": [
+        "4,4,5,5-tetramethyl-2-(p-tolyl)-1,3,2-dioxaborolane",
+        "p-tolylboronic acid pinacol ester",
+        "B(p-Tol)Pin"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 121, product 7; general alternatives page 119",
+        "jacs2024: SI PDF page 122, product 30; general alternatives page 119"
+      ]
+    },
+    {
+      "entity_id": "inchikey:XEMDFESAXKSEGI-UHFFFAOYSA-N",
+      "preferred_name": "3-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridine",
+      "smiles": "CC1(C)OB(c2cccnc2)OC1(C)C",
+      "aliases": [
+        "3-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan-2-yl)pyridine",
+        "3-pyridylboronic acid pinacol ester"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 122, product 31; general alternatives page 119"
+      ]
+    },
+    {
+      "entity_id": "inchikey:QARVLSVVCXYDNA-UHFFFAOYSA-N",
+      "preferred_name": "bromobenzene",
+      "smiles": "Brc1ccccc1",
+      "aliases": [
+        "bromobenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:MVPPADPHJFYWMZ-UHFFFAOYSA-N",
+      "preferred_name": "chlorobenzene",
+      "smiles": "Clc1ccccc1",
+      "aliases": [
+        "chlorobenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: SI PDF page 48, Supplementary Table 6 entry 1; product confirmed from scheme",
+        "nc2025: Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ZUOUZKKEUPVFJK-UHFFFAOYSA-N",
+      "preferred_name": "biphenyl",
+      "smiles": "c1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "biphenyl",
+        "1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: SI PDF page 48, Supplementary Table 6 entry 1; product confirmed from scheme",
+        "nc2025: Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ZBTMRBYMKUEVEU-UHFFFAOYSA-N",
+      "preferred_name": "4-bromotoluene",
+      "smiles": "Cc1ccc(Br)cc1",
+      "aliases": [
+        "4-bromotoluene",
+        "p-bromotoluene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 9; footnote",
+        "nc2022: Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:QSSXJPIWXQTSIX-UHFFFAOYSA-N",
+      "preferred_name": "2-bromotoluene",
+      "smiles": "Cc1ccccc1Br",
+      "aliases": [
+        "2-bromotoluene",
+        "o-bromotoluene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 10; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:QJPJQTDYNZXKQF-UHFFFAOYSA-N",
+      "preferred_name": "4-bromoanisole",
+      "smiles": "COc1ccc(Br)cc1",
+      "aliases": [
+        "4-bromoanisole",
+        "1-bromo-4-methoxybenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 12; footnote",
+        "nc2022: Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:GZFGOTFRPZRKDS-UHFFFAOYSA-N",
+      "preferred_name": "4-bromophenol",
+      "smiles": "Oc1ccc(Br)cc1",
+      "aliases": [
+        "4-bromophenol"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 13; footnote",
+        "nc2022: Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:AITNMTXHTIIIBB-UHFFFAOYSA-N",
+      "preferred_name": "1-bromo-4-fluorobenzene",
+      "smiles": "Fc1ccc(Br)cc1",
+      "aliases": [
+        "1-bromo-4-fluorobenzene",
+        "4-bromofluorobenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 11; footnote",
+        "nc2022: Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:UDHAWRUAECEBHC-UHFFFAOYSA-N",
+      "preferred_name": "4-iodotoluene",
+      "smiles": "Cc1ccc(I)cc1",
+      "aliases": [
+        "4-iodotoluene",
+        "p-iodotoluene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 1; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:RINOYHWVBUKAQE-UHFFFAOYSA-N",
+      "preferred_name": "2-iodotoluene",
+      "smiles": "Cc1ccccc1I",
+      "aliases": [
+        "2-iodotoluene",
+        "o-iodotoluene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 3; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:SYSZENVIJHPFNL-UHFFFAOYSA-N",
+      "preferred_name": "4-iodoanisole",
+      "smiles": "COc1ccc(I)cc1",
+      "aliases": [
+        "4-iodoanisole",
+        "1-iodo-4-methoxybenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 7; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:VSMDINRNYYEDRN-UHFFFAOYSA-N",
+      "preferred_name": "4-iodophenol",
+      "smiles": "Oc1ccc(I)cc1",
+      "aliases": [
+        "4-iodophenol"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 6; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:KGNQDBQYEBMPFZ-UHFFFAOYSA-N",
+      "preferred_name": "1-iodo-4-fluorobenzene",
+      "smiles": "Fc1ccc(I)cc1",
+      "aliases": [
+        "1-iodo-4-fluorobenzene",
+        "4-iodofluorobenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 4; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:VLCPISYURGTGLP-UHFFFAOYSA-N",
+      "preferred_name": "3-iodotoluene",
+      "smiles": "Cc1cccc(I)c1",
+      "aliases": [
+        "3-iodotoluene",
+        "m-iodotoluene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 2; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:SKGRFPGOGCHDPC-UHFFFAOYSA-N",
+      "preferred_name": "1-iodo-4-(trifluoromethyl)benzene",
+      "smiles": "FC(F)(F)c1ccc(I)cc1",
+      "aliases": [
+        "1-iodo-4-(trifluoromethyl)benzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 5; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:FRNLBIWVMVNNAZ-UHFFFAOYSA-N",
+      "preferred_name": "2-iodonaphthalene",
+      "smiles": "Ic1ccc2ccccc2c1",
+      "aliases": [
+        "2-iodonaphthalene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 8; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ZRYZBQLXDKPBDU-UHFFFAOYSA-N",
+      "preferred_name": "4-bromobenzaldehyde",
+      "smiles": "O=Cc1ccc(Br)cc1",
+      "aliases": [
+        "4-bromobenzaldehyde"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 14; footnote",
+        "nc2022: Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:HQSCPPCMBMFJJN-UHFFFAOYSA-N",
+      "preferred_name": "4-bromobenzonitrile",
+      "smiles": "N#Cc1ccc(Br)cc1",
+      "aliases": [
+        "4-bromobenzonitrile",
+        "4-bromobenzene-1-carbonitrile"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 15; footnote",
+        "nc2022: Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:HTDQSWDEWGSAMN-UHFFFAOYSA-N",
+      "preferred_name": "2-bromoanisole",
+      "smiles": "COc1ccccc1Br",
+      "aliases": [
+        "2-bromoanisole",
+        "1-bromo-2-methoxybenzene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2025: Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:WYECURVXVYPVAT-UHFFFAOYSA-N",
+      "preferred_name": "4-bromoacetophenone",
+      "smiles": "CC(=O)c1ccc(Br)cc1",
+      "aliases": [
+        "4-bromoacetophenone",
+        "4'-bromoacetophenone",
+        "4-bromophenylethanone",
+        "1-(4-bromophenyl)ethan-1-one"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 121, product 7; general alternatives page 119",
+        "jacs2024: SI PDF page 121, product 8; general alternatives page 119",
+        "jacs2024: SI PDF page 122, product 31; general alternatives page 119",
+        "nc2025: Main Fig.3 4c-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:BUZYGTVTZYSBCU-UHFFFAOYSA-N",
+      "preferred_name": "4-chloroacetophenone",
+      "smiles": "CC(=O)c1ccc(Cl)cc1",
+      "aliases": [
+        "4-chloroacetophenone",
+        "4'-chloroacetophenone",
+        "1-(4-chlorophenyl)ethan-1-one"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2025: Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:GKJSZXGYFJBYRQ-UHFFFAOYSA-N",
+      "preferred_name": "6-chloroquinoline",
+      "smiles": "Clc1ccc2ncccc2c1",
+      "aliases": [
+        "6-chloroquinoline"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 122, product 30; general alternatives page 119"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ZZLCFHIKESPLTH-UHFFFAOYSA-N",
+      "preferred_name": "4-methylbiphenyl",
+      "smiles": "Cc1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-methylbiphenyl",
+        "4-methyl-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 1; footnote",
+        "nc2019: Main Table 1, entry 9; footnote",
+        "nc2022: Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:NPDIDUXTRAITDE-UHFFFAOYSA-N",
+      "preferred_name": "3-methylbiphenyl",
+      "smiles": "Cc1cccc(-c2ccccc2)c1",
+      "aliases": [
+        "3-methylbiphenyl",
+        "3-methyl-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 2; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ALLIZEAXNXSFGD-UHFFFAOYSA-N",
+      "preferred_name": "2-methylbiphenyl",
+      "smiles": "Cc1ccccc1-c1ccccc1",
+      "aliases": [
+        "2-methylbiphenyl",
+        "2-methyl-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 10; footnote",
+        "nc2019: Main Table 1, entry 3; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:RUYZJEIKQYLEGZ-UHFFFAOYSA-N",
+      "preferred_name": "4-fluorobiphenyl",
+      "smiles": "Fc1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-fluorobiphenyl",
+        "4-fluoro-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 11; footnote",
+        "nc2019: Main Table 1, entry 4; footnote",
+        "nc2022: Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:OUMKBAHMPRLISR-UHFFFAOYSA-N",
+      "preferred_name": "4-(trifluoromethyl)biphenyl",
+      "smiles": "FC(F)(F)c1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-(trifluoromethyl)biphenyl",
+        "4-(trifluoromethyl)-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 5; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:YXVFYQXJAXKLAK-UHFFFAOYSA-N",
+      "preferred_name": "4-phenylphenol",
+      "smiles": "Oc1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-phenylphenol",
+        "[1,1'-biphenyl]-4-ol",
+        "4-hydroxybiphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 13; footnote",
+        "nc2019: Main Table 1, entry 6; footnote",
+        "nc2022: Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:RHDYQUZYHZWTCI-UHFFFAOYSA-N",
+      "preferred_name": "4-methoxybiphenyl",
+      "smiles": "COc1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-methoxybiphenyl",
+        "4-methoxy-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 12; footnote",
+        "nc2019: Main Table 1, entry 7; footnote",
+        "nc2022: Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:TURIHPLQSRVWHU-UHFFFAOYSA-N",
+      "preferred_name": "2-phenylnaphthalene",
+      "smiles": "c1ccc(-c2ccc3ccccc3c2)cc1",
+      "aliases": [
+        "2-phenylnaphthalene"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 8; footnote"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ISDBWOPVZKNQDW-UHFFFAOYSA-N",
+      "preferred_name": "4-phenylbenzaldehyde",
+      "smiles": "O=Cc1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-phenylbenzaldehyde",
+        "[1,1'-biphenyl]-4-carbaldehyde",
+        "4-biphenylcarboxaldehyde"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 14; footnote",
+        "nc2022: Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:BPMBNLJJRKCCRT-UHFFFAOYSA-N",
+      "preferred_name": "4-phenylbenzonitrile",
+      "smiles": "N#Cc1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-phenylbenzonitrile",
+        "[1,1'-biphenyl]-4-carbonitrile",
+        "4-cyanobiphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 15; footnote",
+        "nc2022: Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:RZTDESRVPFKCBH-UHFFFAOYSA-N",
+      "preferred_name": "4,4'-dimethylbiphenyl",
+      "smiles": "Cc1ccc(-c2ccc(C)cc2)cc1",
+      "aliases": [
+        "4,4'-dimethylbiphenyl",
+        "4,4'-dimethyl-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:ASKBXZKXIBPNRA-UHFFFAOYSA-N",
+      "preferred_name": "4-methoxy-4'-methylbiphenyl",
+      "smiles": "COc1ccc(-c2ccc(C)cc2)cc1",
+      "aliases": [
+        "4-methoxy-4'-methylbiphenyl",
+        "4-methoxy-4'-methyl-1,1'-biphenyl",
+        "4-methyl-4'-methoxybiphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:UIMPAOAAAYDUKQ-UHFFFAOYSA-N",
+      "preferred_name": "4,4'-dimethoxybiphenyl",
+      "smiles": "COc1ccc(-c2ccc(OC)cc2)cc1",
+      "aliases": [
+        "4,4'-dimethoxybiphenyl",
+        "4,4'-dimethoxy-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test"
+      ]
+    },
+    {
+      "entity_id": "inchikey:NLWCWEGVNJVLAX-UHFFFAOYSA-N",
+      "preferred_name": "2-methoxybiphenyl",
+      "smiles": "COc1ccccc1-c1ccccc1",
+      "aliases": [
+        "2-methoxybiphenyl",
+        "2-methoxy-1,1'-biphenyl"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2025: Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:QCZZSANNLWPGEA-UHFFFAOYSA-N",
+      "preferred_name": "4-acetylbiphenyl",
+      "smiles": "CC(=O)c1ccc(-c2ccccc2)cc1",
+      "aliases": [
+        "4-acetylbiphenyl",
+        "1-([1,1'-biphenyl]-4-yl)ethan-1-one",
+        "1-(4-phenylphenyl)ethenone",
+        "1-(4-phenylphenyl)ethanone"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 121, product 8; general alternatives page 119",
+        "nc2025: Main Fig.3 4c-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:GNIQQKORSMFYPE-UHFFFAOYSA-N",
+      "preferred_name": "4-acetyl-4'-methylbiphenyl",
+      "smiles": "CC(=O)c1ccc(-c2ccc(C)cc2)cc1",
+      "aliases": [
+        "4-acetyl-4'-methylbiphenyl",
+        "1-[4-(4-tolyl)phenyl]ethenone",
+        "1-(4'-methyl-[1,1'-biphenyl]-4-yl)ethan-1-one"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 121, product 7; general alternatives page 119"
+      ]
+    },
+    {
+      "entity_id": "inchikey:WPDDXDZAKHIGRB-UHFFFAOYSA-N",
+      "preferred_name": "6-(4-methylphenyl)quinoline",
+      "smiles": "Cc1ccc(-c2ccc3ncccc3c2)cc1",
+      "aliases": [
+        "6-(4-methylphenyl)quinoline",
+        "6-(p-tolyl)quinoline"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 122, product 30; general alternatives page 119"
+      ]
+    },
+    {
+      "entity_id": "inchikey:YDAFIGBEEBFUKV-UHFFFAOYSA-N",
+      "preferred_name": "1-[4-(3-pyridinyl)phenyl]ethanone",
+      "smiles": "CC(=O)c1ccc(-c2cccnc2)cc1",
+      "aliases": [
+        "1-[4-(3-pyridinyl)phenyl]ethanone",
+        "1-(4-(pyridin-3-yl)phenyl)ethan-1-one"
+      ],
+      "sources": [
+        "https://doi.org/10.1021/jacs.4c00370"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "jacs2024: SI PDF page 122, product 31; general alternatives page 119"
+      ]
+    },
+    {
+      "entity_id": "inchikey:BWHMMNNQKKPAPP-UHFFFAOYSA-L",
+      "preferred_name": "potassium carbonate",
+      "smiles": "O=C([O-])[O-].[K+].[K+]",
+      "aliases": [
+        "potassium carbonate",
+        "K2CO3"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-019-13679-0",
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2019: Main Table 1, entry 10; footnote",
+        "nc2019: Main Table 1, entry 11; footnote",
+        "nc2019: Main Table 1, entry 12; footnote",
+        "nc2019: Main Table 1, entry 13; footnote",
+        "nc2019: Main Table 1, entry 14; footnote",
+        "nc2019: Main Table 1, entry 15; footnote",
+        "nc2019: Main Table 1, entry 1; footnote",
+        "nc2019: Main Table 1, entry 2; footnote",
+        "nc2019: Main Table 1, entry 3; footnote",
+        "nc2019: Main Table 1, entry 4; footnote",
+        "nc2019: Main Table 1, entry 5; footnote",
+        "nc2019: Main Table 1, entry 6; footnote",
+        "nc2019: Main Table 1, entry 7; footnote",
+        "nc2019: Main Table 1, entry 8; footnote",
+        "nc2019: Main Table 1, entry 9; footnote",
+        "nc2019: SI PDF page 48, Supplementary Table 6 entry 1; product confirmed from scheme",
+        "nc2022: Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+      "preferred_name": "ethanol",
+      "smiles": "CCO",
+      "aliases": [
+        "ethanol",
+        "EtOH"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    },
+    {
+      "entity_id": "inchikey:XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+      "preferred_name": "water",
+      "smiles": "O",
+      "aliases": [
+        "water",
+        "H2O"
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41467-022-33442-2",
+        "https://doi.org/10.1038/s41467-025-58579-8"
+      ],
+      "structure_origin": "assistant transcription of named structures and published schemes; teacher review pending",
+      "evidence_locators": [
+        "nc2022: Main Fig.6, entry a; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry b; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry c; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry d; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry e; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry f; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry g; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry h; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry i; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry j; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry k; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry l; Fig.6 caption and Methods Catalytic performance test",
+        "nc2022: Main Fig.6, entry m; Fig.6 caption and Methods Catalytic performance test",
+        "nc2025: Main Fig.3 4a-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4c-Cl; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4q-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4r-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4s-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)",
+        "nc2025: Main Fig.3 4v-Br; SI PDF page 26 (conditions), 46/49/50 (characterization)"
+      ]
+    }
+  ],
+  "note": "Bounded, reviewed teaching dictionary; unknown names remain unresolved. No fuzzy or LLM-only identity assignment."
+}

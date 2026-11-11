@@ -1,0 +1,39 @@
+{
+  "source_id": "nc2025",
+  "response_id": "c8caf98c-fc9f-4587-a22a-788a2da9c01d",
+  "served_model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 5346,
+    "completion_tokens": 1674,
+    "total_tokens": 7020,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 4962
+  },
+  "finish_reason": "stop",
+  "content": "{\"records\": [{\"label\": \"4a-Cl\", \"reactants\": [\"chlorobenzene\", \"phenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"1,1'-biphenyl\", \"product_mass\": null, \"yield_percent\": 99, \"yield_type\": \"unknown\", \"temperature\": \"80 °C\", \"time\": \"10 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 99% for X=Cl under condition a; SI NMR section states 99% when X=I, Br and Cl, consistent.\"}, {\"label\": \"4c-Cl\", \"reactants\": [\"1-chloro-4-acetylbenzene\", \"phenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"1-([1,1'-biphenyl]-4-yl)ethan-1-one\", \"product_mass\": null, \"yield_percent\": 98, \"yield_type\": \"unknown\", \"temperature\": \"100 °C\", \"time\": \"20 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 98% for X=Cl under condition b; SI NMR section only states 98% when X=I and Br, so the Cl value is not corroborated in SI.\"}, {\"label\": \"4c-Br\", \"reactants\": [\"1-bromo-4-acetylbenzene\", \"phenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"1-([1,1'-biphenyl]-4-yl)ethan-1-one\", \"product_mass\": null, \"yield_percent\": 98, \"yield_type\": \"unknown\", \"temperature\": \"100 °C\", \"time\": \"20 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 98% for X=Br under condition b; SI NMR section states 98% when X=I and Br, consistent.\"}, {\"label\": \"4q-Br\", \"reactants\": [\"4-bromotoluene\", \"phenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"4-methyl-1,1'-biphenyl\", \"product_mass\": null, \"yield_percent\": 99, \"yield_type\": \"unknown\", \"temperature\": \"80 °C\", \"time\": \"10 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 99% for X=Br under condition a; SI NMR section states 99% when X=I and Br, consistent.\"}, {\"label\": \"4r-Br\", \"reactants\": [\"4-bromotoluene\", \"4-methylphenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"4,4'-dimethyl-1,1'-biphenyl\", \"product_mass\": null, \"yield_percent\": 99, \"yield_type\": \"unknown\", \"temperature\": \"80 °C\", \"time\": \"10 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 99% for X=Br under condition a; SI NMR section states 99%, consistent.\"}, {\"label\": \"4s-Br\", \"reactants\": [\"2-bromoanisole\", \"phenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"2-methoxy-1,1'-biphenyl\", \"product_mass\": null, \"yield_percent\": 80, \"yield_type\": \"unknown\", \"temperature\": \"80 °C\", \"time\": \"10 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 80% for X=Br under condition a; SI NMR section states 80%, consistent.\"}, {\"label\": \"4v-Br\", \"reactants\": [\"4-bromotoluene\", \"4-methoxyphenylboronic acid\"], \"reactant_amounts\": [\"0.5 mmol\", \"0.6 mmol\"], \"product\": \"4-methoxy-4'-methyl-1,1'-biphenyl\", \"product_mass\": null, \"yield_percent\": 98, \"yield_type\": \"unknown\", \"temperature\": \"80 °C\", \"time\": \"10 h\", \"catalyst\": \"Pd1 ASAC\", \"catalyst_loading\": \"5 mg, 0.35 mol%\", \"base\": \"K2CO3\", \"base_amount\": \"1.5 mmol\", \"solvents\": [\"EtOH\", \"H2O\"], \"solvent_amounts\": [\"2 mL\", \"2 mL\"], \"record_kind\": \"reported_result\", \"replicates\": null, \"notes\": \"Main Fig.3 reports 98% for X=Br under condition a; SI NMR section states 99%, a discrepancy of 1 percentage point.\"}], \"notes\": \"Yields are reported as percentages without explicit GC/isolated designation; condition e is the only one labeled isolated in the SI footnote, and none of the allowed labels use condition e. Reactant amounts and conditions taken from SI Fig.22 footnote conditions a and b as indicated by the main figure superscripts.\"}",
+  "input_files": [
+    {
+      "file": "nc2025-fig3.png",
+      "sha256": "c6da35619d2026cea263757fc8d09f7e6e74fe3892724cc8dfe919cdf74c5627",
+      "pages": null,
+      "xpath": null
+    },
+    {
+      "file": "nc2025-si.pdf",
+      "sha256": "c2e31fd5d1da84b0b2d6d5c79cd0ae4993f793370e6e5875eae23871f8274a95",
+      "pages": [
+        26,
+        46,
+        49,
+        50
+      ],
+      "xpath": null
+    }
+  ],
+  "prompt_sha256": "1d562352dc79b66191ed73e2f7250164e6ec5a54c07aca82e959ad87e6b3a41f",
+  "prompt_template_sha256": "825e1c2d2d50e85a14d5444a576c9a86a3abc79b3867e5dd23d0f69095a72e93",
+  "timestamp": "2026-11-11T07:31:24.902535+00:00"
+}

@@ -1,6 +1,6 @@
 # 有机反应科学知识建模实训
 
-让学生把同一篇有机合成文献中的信息，逐步变成**可关联、可检查、可修订、可追溯的知识库**。
+让学生把有机合成文献中的信息，逐步变成**可关联、可检查、可修订、可追溯的知识库**。现有单篇入门实验之外，新增 **Suzuki 跨文献实验：4篇论文、40条选定结果记录**，包含真实图文抽取回放、跨论文融合和增量更新。
 
 适合具备基础 Python 能力的本科生。必做实验使用普通电脑 CPU；**回放路径不需要 API Key，也不会产生模型费用**。真实调用路径使用学生自行配置的 DeepSeek API。
 
@@ -8,6 +8,8 @@ GitHub 仓库：[nydiii/reaction-knowledge-lab](https://github.com/nydiii/reacti
 
 ## 从这里开始
 
+- **[跨文献批量操作手册](docs/BATCH_MANUAL.md)**：本次新增的主线，三篇初始导入，再加入第四篇；普通电脑、免费回放。
+- **[教师人工核查表](docs/MANUAL_REVIEW.md)** · **[可填写回传单](docs/REVIEW_RETURN.md)**：尚待教师审校的化学内容与一键运行回传方法。
 - **[完整操作手册](docs/MANUAL.md)**：环境安装、下载资料、逐条命令、预期结果、常见问题。
 - **[教师说明与参考答案](docs/TEACHER_GUIDE.md)**：验收标准、教学错误与讨论问题。
 - **[数据和来源](docs/DATA_SOURCES.md)**：原文、固定版本、证据位置、已知抽取问题。
@@ -16,11 +18,22 @@ GitHub 仓库：[nydiii/reaction-knowledge-lab](https://github.com/nydiii/reacti
 
 | 板块 | 方法或基础设施 | 本实验的可检查结果 |
 |---|---|---|
-| 信息抽取 | ReactionSeek 原提示词；公开输出回放或 DeepSeek 适配 | 原始 CSV、模型信息、输入/提示词哈希 |
-| 对齐与融合 | 借鉴 ReactionSeek 标准化流程；有来源的名称/结构缓存、RDKit、课程记录组织 | 别名关联到同一化合物，两次实验分别保留 |
+| 信息抽取 | 单篇使用 ReactionSeek 原提示词；跨文献使用课程图文/JSON 适配；均提供真实响应回放 | 原始候选、模型信息、输入/提示词哈希 |
+| 对齐与融合 | 借鉴 ReactionSeek 标准化流程；有来源的名称/结构缓存、RDKit、课程记录组织 | 别名关联到同一化合物，跨文献关联且独立保存实验结果 |
 | 校验与更新 | 真实 ORD 校验库；课程参考核对、SQLite 版本与修订 | 区分规则和事实检查，查询随修订改变，历史可查 |
 
 ## 快速跑通
+
+完成下方环境安装后，跨文献主线运行：
+
+```bash
+python -m reaction_knowledge_lab batch-demo --workdir runs/batch
+python -m reaction_knowledge_lab batch-verify --workdir runs/batch
+```
+
+预期40条结果、4篇来源、10组跨文献相同转化。两处正文/SI冲突仍标为待核查，不能把软件通过理解为化学事实全部获确认。需要一键回传运行结果时：`python scripts/verify_student_setup.py --output runs/student-check`。
+
+以下 `demo` 是原有单篇入门流程，`batch-demo` 是新增批量流程，两者分别保留。
 
 下载本仓库 ZIP 或克隆后，进入包含 `pyproject.toml` 的目录。推荐 **Python 3.12**。
 
@@ -56,7 +69,7 @@ python -m reaction_knowledge_lab check-evidence
 
 下载器会获取固定 commit 的输入和提示词，并核对 SHA-256。依赖安装和资料下载需要网络，安装完成后的必做回放不联网。
 
-## 学生会实际看到什么
+## 单篇入门案例会看到什么
 
 案例是 *Photoexcited Nitroarenes for the Anaerobic Cleavage of Alkenes*，Organic Syntheses 102:114–127 (2025)。[原文](https://www.orgsyn.org/demo.aspx?prep=v102p0114)
 
@@ -78,6 +91,7 @@ python -m jupyterlab
 1. [01_extraction.ipynb](notebooks/01_extraction.ipynb)
 2. [02_alignment.ipynb](notebooks/02_alignment.ipynb)
 3. [03_validation_update.ipynb](notebooks/03_validation_update.ipynb)
+4. [04_cross_paper_batch.ipynb](notebooks/04_cross_paper_batch.ipynb)
 
 这些 Notebook 默认不调用付费 API。测试执行与重跑目录说明见操作手册。
 
@@ -85,7 +99,7 @@ python -m jupyterlab
 
 这是**有限案例的模块复现与教学适配**，不是三篇论文全量指标复现。
 
-- ReactionSeek：使用固定原始提示词与公开真实输出；DeepSeek 替换 GLM 属模型适配。结构缓存、保守单位规则和记录身份处理是课程改造，不冒称原始标准化脚本原样运行。
+- ReactionSeek：单篇使用固定原始提示词与公开真实输出；DeepSeek 替换 GLM 属模型适配。跨文献采用课程 JSON 提示词与图文输入，借鉴其抽取任务；结构缓存、保守单位规则和记录身份处理是课程改造，不冒称原始标准化脚本原样运行。
 - ORD：运行 `ord-schema==0.9.6` 的真实导出与校验。它不会替你读取原文验证事实。
 - SQLite、修订提案、原文参考比较、查询回归：课程新增代码。
 - RXN Filter：保留原模型架构、特征与权重，适配独立 CPU 推理。分数只供筛疑。

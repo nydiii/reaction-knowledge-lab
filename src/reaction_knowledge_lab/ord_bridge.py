@@ -56,9 +56,19 @@ def to_ord(record: dict) -> reaction_pb2.Reaction:
     )
     for group, role in (("inputs", "REACTANT"), ("solvents", "SOLVENT")):
         for index, item in enumerate(record.get(group) or []):
-            reaction.inputs[f"{group}_{index}"].components.add().CopyFrom(
-                _input_component(item, role)
-            )
+            pooled = record.get('record_kind') == 'pooled_result'
+            component = _input_component({**item, 'amount':None} if pooled else item, role)
+            if pooled:
+                component.amount.unmeasured.details = (
+                    'Pooled product result: source input amounts are per run, not a confirmed total. '
+                    'Original per-run quantities and replicate count are retained in course_record metadata.'
+                )
+            reaction.inputs[f"{group}_{index}"].components.add().CopyFrom(component)
+    if record.get('record_kind') == 'pooled_result':
+        reaction.notes.procedure_details = (
+            f"Pooled result from {record.get('replicates')} reported runs. Product mass/yield describe "
+            'combined material; native input amounts intentionally unset to avoid mixing per-run and pooled quantities.'
+        )
 
     outcome = reaction.outcomes.add()
     conditions = record.get("conditions") or {}
@@ -134,7 +144,7 @@ def export_ord(records: list[dict], output_path: Path) -> dict:
     """
     dataset = dataset_pb2.Dataset(
         dataset_id=DATASET_ID,
-        name="Reaction Knowledge Lab: Organic Syntheses classroom records",
+        name="Reaction Knowledge Lab: traceable classroom reaction records",
         description=(
             "Course export of extracted and reviewed records; see per-record "
             "metadata for source, original fields, and review status."

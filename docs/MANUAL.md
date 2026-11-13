@@ -24,9 +24,9 @@
 
 打开 [GitHub 仓库](https://github.com/nydiii/reaction-knowledge-lab)，选择 **Code → Download ZIP**，解压到自己的课程目录。不要直接在 ZIP 压缩包内运行程序。
 
-仓库当前为私有，需登录已获访问权限的 GitHub 账号。没有访问权限时，可以直接使用教师分发的仓库 ZIP。
+仓库已公开，无需登录即可查看和下载。普通访问者没有直接修改本仓库的权限；可以在下载的本地副本中完成练习。
 
-已安装 Git 并配置 GitHub 登录的同学也可以克隆：
+已安装 Git 的同学也可以直接克隆，无需配置 GitHub 登录：
 
 ```text
 git clone https://github.com/nydiii/reaction-knowledge-lab.git

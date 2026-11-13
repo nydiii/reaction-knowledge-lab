@@ -12,6 +12,7 @@ GitHub 仓库：[nydiii/reaction-knowledge-lab](https://github.com/nydiii/reacti
 - **[教师人工核查表](docs/MANUAL_REVIEW.md)** · **[可填写回传单](docs/REVIEW_RETURN.md)**：尚待教师审校的化学内容与一键运行回传方法。
 - **[H02逐项核查表](docs/H02_CHECKLIST.md)** · **[Excel可填写版](outputs/h02-20261113/H02-review.xlsx)**：40条记录逐项列出当前值、原文位置和资料链接，填写结果即可回传。
 - **[H03产率差异核查教程](docs/H03_GUIDE.md)**：正文与SI的逐步对照方法、人工回传模板，以及可交给其他AI的完整任务说明。
+- **[H04合并产物核查教程](docs/H04_GUIDE.md)** · **[H05条件归属核查教程](docs/H05_GUIDE.md)**：区分单次投料与合并结果、寻找具体结果的条件依据；均含人工表单和AI任务说明。
 - **[完整操作手册](docs/MANUAL.md)**：环境安装、下载资料、逐条命令、预期结果、常见问题。
 - **[教师说明与参考答案](docs/TEACHER_GUIDE.md)**：验收标准、教学错误与讨论问题。
 - **[数据和来源](docs/DATA_SOURCES.md)**：原文、固定版本、证据位置、已知抽取问题。

@@ -10,6 +10,7 @@ GitHub 仓库：[nydiii/reaction-knowledge-lab](https://github.com/nydiii/reacti
 
 - **[跨文献批量操作手册](docs/BATCH_MANUAL.md)**：本次新增的主线，三篇初始导入，再加入第四篇；普通电脑、免费回放。
 - **[教师人工核查表](docs/MANUAL_REVIEW.md)** · **[可填写回传单](docs/REVIEW_RETURN.md)**：尚待教师审校的化学内容与一键运行回传方法。
+- **[H02逐项核查表](docs/H02_CHECKLIST.md)** · **[Excel可填写版](outputs/h02-20261113/H02-review.xlsx)**：40条记录逐项列出当前值、原文位置和资料链接，填写结果即可回传。
 - **[完整操作手册](docs/MANUAL.md)**：环境安装、下载资料、逐条命令、预期结果、常见问题。
 - **[教师说明与参考答案](docs/TEACHER_GUIDE.md)**：验收标准、教学错误与讨论问题。
 - **[数据和来源](docs/DATA_SOURCES.md)**：原文、固定版本、证据位置、已知抽取问题。

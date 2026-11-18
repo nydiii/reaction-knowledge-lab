@@ -30,6 +30,8 @@
 - [SI第121页](https://ndownloader.figshare.com/files/44651241#page=121)：产物7、8的具体制备描述。
 - [SI第122页](https://ndownloader.figshare.com/files/44651241#page=122)：产物30、31的具体制备描述。
 
+以上 JACS SI 链接打不开时，按[下载恢复步骤](BATCH_MANUAL.md#jacs-si-recovery)获取同一份文件，再在 PDF 阅读器中输入页码；仅人工核查可直接使用教师提供的已校验副本。
+
 ### Nature Communications 2025论文
 
 *Defying the oxidative-addition prerequisite in cross-coupling through artful single-atom catalysts*，DOI：[10.1038/s41467-025-58579-8](https://doi.org/10.1038/s41467-025-58579-8)。

@@ -24,7 +24,11 @@
 
 页面上半部分是产物7，下半部分是**产物8**。找到结构图旁的编号8，阅读它下面、NMR数据之前的完整制备说明。不要只截取包含180 mg的最后一个括号。
 
-已下载课程资料时，文件在仓库的 `data/downloads/batch/jacs2024-si.pdf`；固定版本和SHA-256见 [sources.json](../data/batch/sources.json)。链接不可访问时，从论文页面的Supporting Information入口获取；仍无法读取则标为“未查”。
+已下载课程资料时，文件在仓库的 `data/downloads/batch/jacs2024-si.pdf`；固定版本和SHA-256见 [sources.json](../data/batch/sources.json)。这份 SI 的课程固定副本为166页、7,524,796字节。
+
+若上面的 Figshare 链接打不开，可在浏览器尝试 [ACS 官方 SI 文件入口](https://pubs.acs.org/doi/suppl/10.1021/jacs.4c00370/suppl_file/ja4c00370_si_001.pdf)，或从 [论文官方页面](https://pubs.acs.org/doi/10.1021/jacs.4c00370) 的 Supporting Information 获取 `ja4c00370_si_001.pdf`；也可向教师索取已校验的原文件副本。这些入口不保证在每个网络环境下可访问。保存原 PDF 后，将其改名为 `jacs2024-si.pdf` 并放入上述目录；已有不同版本先备份，不覆盖。
+
+运行课程程序的同学，按 [JACS SI 下载恢复步骤](BATCH_MANUAL.md#jacs-si-recovery) 先重跑 `batch-fetch` 检查全部文件，再运行 `batch-check-evidence`，不要改哈希来通过检查。仅参加人工核查的同学可直接阅读教师提供的已校验 PDF，无需安装程序。仍无法实际读取第121页时标为“未查”；离线回放成功或来源状态 `not_checked` 都不能替代本条原文核查。
 
 ## 3. 顺着段落核对五件事
 

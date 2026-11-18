@@ -1069,6 +1069,8 @@
 
 ## 37　jacs2024-p7
 
+JACS SI 链接打不开时，先按 [补充材料下载恢复步骤](BATCH_MANUAL.md#jacs-si-recovery) 获取并校验 `jacs2024-si.pdf`；以下四条 JACS 记录使用同一份文件。
+
 **打开哪里：** [SI 第121页](https://ndownloader.figshare.com/files/44651241#page=121)，SI PDF 第121页，产物 7 的结构和段落。
 
 **怎么看：** 原文报告多种规模；本条只对应其中40 mg/0.20 mmol底物的具体示例。硼酸酯不能写成硼酸。

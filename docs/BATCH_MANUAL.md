@@ -80,16 +80,45 @@ python -m reaction_knowledge_lab batch-verify --workdir runs/batch-demo
 
 ## 5. 获取并核对原始资料
 
+先下载并检查清单中的全部文件：
+
 ```bash
 python -m reaction_knowledge_lab batch-fetch
+```
+
+共11个官方来源文件：4份全文XML、4份SI PDF、3张原图，保存在 `data/downloads/batch/`，不会提交到Git。清单、直接下载URL和SHA-256见 [sources.json](../data/batch/sources.json)。程序检查每个文件的哈希；本地已有且通过检查的文件不会重复下载，也不会自动覆盖已有不同版本。
+
+先看 `batch-fetch` 的 `passed` 是否为 `true`、`files` 中是否全部为 `verified`。若有 `needs_download`，根据该项 `file` 确认是哪份资料，再查看下面这些字段；不要把某一份失败当作全部下载失败。
+
+| 失败结果字段 | 怎样读 |
+|---|---|
+| `error_type` | 异常类别，例如 `HTTPError`、`URLError`、`TimeoutError` 或 `ValueError`；仅凭类别不能确定完整原因 |
+| `error_message` | 具体错误说明；结合其中的超时、连接失败或哈希不一致信息处理，不直接猜测是校园网拦截 |
+| `http_status` | 仅 HTTP 错误时提供；例如403是服务器拒绝请求，404是该次请求未找到资源 |
+| `destination` | 程序期望保存的本地路径；手动取得文件后应放到这里 |
+
+旧版本若只显示 `error_type`，应保留该输出并反馈，不能据此断言网站已失效或文件有误。
+
+<a id="jacs-si-recovery"></a>
+
+### JACS 2024 补充材料下载失败时
+
+如果失败项是 **`jacs2024-si.pdf`**，它对应 *ProPhos* 论文（DOI `10.1021/jacs.4c00370`）的补充材料，不是正文。按以下步骤恢复：
+
+1. 用浏览器尝试 [原 Figshare 下载直链](https://ndownloader.figshare.com/files/44651241)。打不开时，再尝试 [ACS 官方 SI 文件入口](https://pubs.acs.org/doi/suppl/10.1021/jacs.4c00370/suppl_file/ja4c00370_si_001.pdf)，或进入 [论文官方页面](https://pubs.acs.org/doi/10.1021/jacs.4c00370) 的 Supporting Information 下载 `ja4c00370_si_001.pdf`。这些是获取同一资料的入口，不保证在每个网络环境下都可访问。
+2. 使用浏览器的下载功能保存原 PDF，不要把登录页、验证页另存为 PDF，也不要打印或重新导出 PDF。课程固定副本为 **166页、7,524,796字节**；页数和大小只用于初步识别，是否同一版本最终由程序核对 SHA-256。
+3. 将文件命名为 **`jacs2024-si.pdf`**，放到仓库的 **`data/downloads/batch/`** 文件夹。如果目标位置已有哈希不一致的同名文件，先把旧文件移到其他备份位置，再放入新文件，不直接覆盖。也可请教师提供已通过同一清单哈希校验的原文件副本，按相同步骤保存和复验；原文不随仓库重新分发。
+4. 在仓库根目录重新运行 `python -m reaction_knowledge_lab batch-fetch`，让程序检查全部11份资料。已通过哈希检查的其他文件不会重新下载。若仍有失败，保留具体字段并反馈；**不要修改 `sources.json` 的哈希或绕过检查**。
+
+只有 `batch-fetch` 全部通过后，再核对来源、选页和抽取输入：
+
+```bash
 python -m reaction_knowledge_lab batch-check-evidence
 ```
 
-下载11个官方来源文件：4份全文XML、4份SI PDF、3张原图，保存在 `data/downloads/batch/`，不会提交到Git。清单、直接下载URL和SHA-256见 [sources.json](../data/batch/sources.json)。每个文件都检查哈希；下载失败不会把验证页当论文保存，也不会覆盖已有不同版本。
+Windows PowerShell 用户将上述每条命令开头的 `python` 替换为 `.\.venv\Scripts\python.exe`，例如 `.\.venv\Scripts\python.exe -m reaction_knowledge_lab batch-fetch`。仍在包含 `pyproject.toml` 的仓库根目录执行。
 
-`batch-check-evidence` 的 `verified` 证明文件、选页/段落和真实回放的输入提示词可重建；**不证明图中结构或化学含义正确**。未下载时显示 `not_checked`，回放仍可进行。
-
-若某个网站被校园网拦截，在浏览器打开 manifest 对应的 `url`，另存到指定目录并保持 `name`，再运行以上命令。哈希不一致时不要修改清单强行通过：保留文件并在核查表注明，以便判断是否出版社更新。原文不随仓库重新分发；离线机可以从有网络的电脑复制同名文件后校验。
+`batch-check-evidence` 的 `verified` 证明文件、选页/段落和真实回放的输入提示词可重建；**不证明图中结构或化学含义正确**。资料缺失时显示 `not_checked`；文件存在但哈希不符时会报错，不能视为通过。暂时拿不到资料仍可继续离线回放，但本次来源核查应如实记录为未完成，不能写成 `verified`。
 
 ## 6. 分步做抽取、关联、融合
 

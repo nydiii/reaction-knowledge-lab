@@ -32,8 +32,14 @@ def fetch_batch(destination=DATA / "downloads/batch"):
                 raise ValueError("本地文件哈希不一致；保留副本后重新获取，不自动覆盖")
             results.append({"file": item["name"], "status": "verified"})
         except (OSError, ValueError) as error:
-            results.append({"file": item["name"], "status": "needs_download",
-                            "url": item["url"], "error_type": type(error).__name__})
+            failure = {"file": item["name"], "status": "needs_download",
+                       "url": item["url"], "destination": str(path),
+                       "error_type": type(error).__name__,
+                       "error_message": str(error.reason if isinstance(error, urllib.error.URLError) else error)}
+            if isinstance(error, urllib.error.HTTPError):
+                failure["http_status"] = error.code
+                failure["error_message"] = f"HTTP {error.code}: {error.reason}"
+            results.append(failure)
     return {"passed": all(r["status"] == "verified" for r in results), "files": results}
 
 
